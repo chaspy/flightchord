@@ -1,15 +1,31 @@
 {
-  "airport": "UBJ",
+  "airport": "KUH",
   "updatedAt": "2025-08-24",
   "source": [
     {
-      "url": "https://www.starflyer.jp/timetable/",
+      "url": "https://openflights.org/data.php",
       "lastChecked": "2025-08-24",
-      "description": "スターフライヤー公式時刻表"
+      "description": "OpenFlights Route Database (Historical)"
     }
   ],
   "carriers": {
-    "7G": {
+    "GE": {
+      "destinations": [
+        {
+          "iata": "TPE",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "HD": {
       "destinations": [
         {
           "iata": "HND",
@@ -17,8 +33,8 @@
           "intl": false,
           "sources": [
             {
-              "title": "スターフライヤー公式時刻表（羽田⇔山口宇部）",
-              "url": "https://www.starflyer.jp/timetable/"
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
             }
           ],
           "lastChecked": "2025-08-24"
@@ -44,7 +60,7 @@
     "NH": {
       "destinations": [
         {
-          "iata": "HND",
+          "iata": "CTS",
           "freq_per_day": null,
           "intl": false,
           "sources": [
@@ -54,15 +70,11 @@
             }
           ],
           "lastChecked": "2025-08-24"
-        }
-      ]
-    },
-    "OZ": {
-      "destinations": [
+        },
         {
-          "iata": "ICN",
+          "iata": "HND",
           "freq_per_day": null,
-          "intl": true,
+          "intl": false,
           "sources": [
             {
               "title": "OpenFlights Route Database",

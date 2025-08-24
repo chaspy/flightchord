@@ -1,47 +1,74 @@
 {
-  "airport": "ISG",
+  "airport": "KMQ",
   "updatedAt": "2025-08-24",
+  "source": [
+    {
+      "url": "https://openflights.org/data.php",
+      "lastChecked": "2025-08-24",
+      "description": "OpenFlights Route Database (Historical)"
+    }
+  ],
   "carriers": {
-    "NU": {
+    "BR": {
       "destinations": [
         {
-          "iata": "OKA",
-          "freq_per_day": 4,
+          "iata": "TPE",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "FW": {
+      "destinations": [
+        {
+          "iata": "FUK",
+          "freq_per_day": null,
           "intl": false,
           "sources": [
             {
-              "title": "JTA公式時刻表",
-              "url": "https://www.jta.co.jp/schedule/"
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
             }
           ],
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "MYJ",
-          "freq_per_day": 1,
+          "iata": "NRT",
+          "freq_per_day": null,
           "intl": false,
           "sources": [
             {
-              "title": "JTA公式時刻表",
-              "url": "https://www.jta.co.jp/schedule/"
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
             }
           ],
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "HND",
-          "freq_per_day": 1,
+          "iata": "SDJ",
+          "freq_per_day": null,
           "intl": false,
           "sources": [
             {
-              "title": "JTA公式時刻表",
-              "url": "https://www.jta.co.jp/schedule/"
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
             }
           ],
           "lastChecked": "2025-08-24"
-        },
+        }
+      ]
+    },
+    "HD": {
+      "destinations": [
         {
-          "iata": "KIX",
+          "iata": "CTS",
           "freq_per_day": null,
           "intl": false,
           "sources": [
@@ -57,95 +84,49 @@
     "JL": {
       "destinations": [
         {
-          "iata": "OKA",
-          "freq_per_day": 2,
-          "intl": false,
-          "sources": [
-            {
-              "title": "JAL公式時刻表",
-              "url": "https://www.jal.co.jp/jp/ja/jmb/flightschedule/"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
           "iata": "HND",
-          "freq_per_day": 1,
+          "freq_per_day": null,
           "intl": false,
           "sources": [
             {
-              "title": "JAL公式時刻表",
-              "url": "https://www.jal.co.jp/jp/ja/jmb/flightschedule/"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        }
-      ]
-    },
-    "MM": {
-      "destinations": [
-        {
-          "iata": "KIX",
-          "freq_per_day": 2,
-          "intl": false,
-          "sources": [
-            {
-              "title": "ピーチ・アビエーション公式時刻表",
-              "url": "https://www.flypeach.com/jp/ja/schedule"
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
             }
           ],
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "OKA",
+          "iata": "ICN",
           "freq_per_day": null,
-          "intl": false,
+          "intl": true,
           "sources": [
             {
               "title": "OpenFlights Route Database",
               "url": "https://openflights.org/data.php"
             }
           ],
-          "lastChecked": "2025-08-24"
-        }
-      ]
-    },
-    "OC": {
-      "destinations": [
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
         {
-          "iata": "MYJ",
-          "freq_per_day": 1,
-          "intl": false,
-          "sources": [
-            {
-              "title": "RAC公式時刻表",
-              "url": "https://www.rac.co.jp/schedule/"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        }
-      ]
-    },
-    "BC": {
-      "destinations": [
-        {
-          "iata": "OKA",
+          "iata": "PVG",
           "freq_per_day": null,
-          "intl": false,
+          "intl": true,
           "sources": [
             {
               "title": "OpenFlights Route Database",
               "url": "https://openflights.org/data.php"
             }
           ],
-          "lastChecked": "2025-08-24"
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
         }
       ]
     },
-    "CI": {
+    "KE": {
       "destinations": [
         {
-          "iata": "TPE",
+          "iata": "ICN",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -158,10 +139,10 @@
         }
       ]
     },
-    "GE": {
+    "MU": {
       "destinations": [
         {
-          "iata": "TPE",
+          "iata": "PVG",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -176,6 +157,19 @@
     },
     "NH": {
       "destinations": [
+        {
+          "iata": "CTS",
+          "freq_per_day": null,
+          "intl": false,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
         {
           "iata": "FUK",
           "freq_per_day": null,
@@ -201,7 +195,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "KIX",
+          "iata": "NRT",
           "freq_per_day": null,
           "intl": false,
           "sources": [
@@ -210,10 +204,11 @@
               "url": "https://openflights.org/data.php"
             }
           ],
-          "lastChecked": "2025-08-24"
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
         },
         {
-          "iata": "MMY",
+          "iata": "SDJ",
           "freq_per_day": null,
           "intl": false,
           "sources": [
@@ -222,20 +217,26 @@
               "url": "https://openflights.org/data.php"
             }
           ],
-          "lastChecked": "2025-08-24"
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
         },
         {
-          "iata": "NGO",
+          "iata": "TPE",
           "freq_per_day": null,
-          "intl": false,
+          "intl": true,
           "sources": [
             {
               "title": "OpenFlights Route Database",
               "url": "https://openflights.org/data.php"
             }
           ],
-          "lastChecked": "2025-08-24"
-        },
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        }
+      ]
+    },
+    "NU": {
+      "destinations": [
         {
           "iata": "OKA",
           "freq_per_day": null,

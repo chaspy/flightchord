@@ -1,34 +1,18 @@
 {
-  "airport": "UBJ",
+  "airport": "NKM",
   "updatedAt": "2025-08-24",
   "source": [
     {
-      "url": "https://www.starflyer.jp/timetable/",
+      "url": "https://openflights.org/data.php",
       "lastChecked": "2025-08-24",
-      "description": "スターフライヤー公式時刻表"
+      "description": "OpenFlights Route Database (Historical)"
     }
   ],
   "carriers": {
-    "7G": {
+    "JH": {
       "destinations": [
         {
-          "iata": "HND",
-          "freq_per_day": null,
-          "intl": false,
-          "sources": [
-            {
-              "title": "スターフライヤー公式時刻表（羽田⇔山口宇部）",
-              "url": "https://www.starflyer.jp/timetable/"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        }
-      ]
-    },
-    "JL": {
-      "destinations": [
-        {
-          "iata": "HND",
+          "iata": "AOJ",
           "freq_per_day": null,
           "intl": false,
           "sources": [
@@ -38,13 +22,9 @@
             }
           ],
           "lastChecked": "2025-08-24"
-        }
-      ]
-    },
-    "NH": {
-      "destinations": [
+        },
         {
-          "iata": "HND",
+          "iata": "GAJ",
           "freq_per_day": null,
           "intl": false,
           "sources": [
@@ -54,15 +34,47 @@
             }
           ],
           "lastChecked": "2025-08-24"
-        }
-      ]
-    },
-    "OZ": {
-      "destinations": [
+        },
         {
-          "iata": "ICN",
+          "iata": "HNA",
           "freq_per_day": null,
-          "intl": true,
+          "intl": false,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "KCZ",
+          "freq_per_day": null,
+          "intl": false,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "KIJ",
+          "freq_per_day": null,
+          "intl": false,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "KMJ",
+          "freq_per_day": null,
+          "intl": false,
           "sources": [
             {
               "title": "OpenFlights Route Database",

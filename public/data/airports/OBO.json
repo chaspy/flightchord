@@ -1,15 +1,15 @@
 {
-  "airport": "UBJ",
+  "airport": "OBO",
   "updatedAt": "2025-08-24",
   "source": [
     {
-      "url": "https://www.starflyer.jp/timetable/",
+      "url": "https://openflights.org/data.php",
       "lastChecked": "2025-08-24",
-      "description": "スターフライヤー公式時刻表"
+      "description": "OpenFlights Route Database (Historical)"
     }
   ],
   "carriers": {
-    "7G": {
+    "HD": {
       "destinations": [
         {
           "iata": "HND",
@@ -17,8 +17,8 @@
           "intl": false,
           "sources": [
             {
-              "title": "スターフライヤー公式時刻表（羽田⇔山口宇部）",
-              "url": "https://www.starflyer.jp/timetable/"
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
             }
           ],
           "lastChecked": "2025-08-24"
@@ -53,23 +53,8 @@
               "url": "https://openflights.org/data.php"
             }
           ],
-          "lastChecked": "2025-08-24"
-        }
-      ]
-    },
-    "OZ": {
-      "destinations": [
-        {
-          "iata": "ICN",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
         }
       ]
     }

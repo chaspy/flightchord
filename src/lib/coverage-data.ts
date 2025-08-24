@@ -173,8 +173,218 @@ export const ALL_AIRPORTS: Record<string, AirportInfo> = {
     status: 'implemented', region: 'chugoku', type: 'regional'
   },
 
-  // 未実装（正直な表示）
-  // 実際には100以上の空港が存在するが、現在は上記のみ実装
+  // OpenFlightsブートストラップで追加された空港
+  // 北海道
+  HKD: {
+    iata: 'HKD', name: '函館空港', nameEn: 'Hakodate Airport',
+    status: 'implemented', region: 'hokkaido', type: 'regional'
+  },
+  KUH: {
+    iata: 'KUH', name: '釧路空港', nameEn: 'Kushiro Airport',
+    status: 'implemented', region: 'hokkaido', type: 'regional'
+  },
+  MMB: {
+    iata: 'MMB', name: '女満別空港', nameEn: 'Memanbetsu Airport',
+    status: 'implemented', region: 'hokkaido', type: 'regional'
+  },
+  SHB: {
+    iata: 'SHB', name: '中標津空港', nameEn: 'Nakashibetsu Airport',
+    status: 'implemented', region: 'hokkaido', type: 'regional'
+  },
+  OBO: {
+    iata: 'OBO', name: '帯広空港', nameEn: 'Tokachi-Obihiro Airport',
+    status: 'implemented', region: 'hokkaido', type: 'regional'
+  },
+  AKJ: {
+    iata: 'AKJ', name: '旭川空港', nameEn: 'Asahikawa Airport',
+    status: 'implemented', region: 'hokkaido', type: 'regional'
+  },
+  MBE: {
+    iata: 'MBE', name: '紋別空港', nameEn: 'Monbetsu Airport',
+    status: 'implemented', region: 'hokkaido', type: 'regional'
+  },
+  WKJ: {
+    iata: 'WKJ', name: '稚内空港', nameEn: 'Wakkanai Airport',
+    status: 'implemented', region: 'hokkaido', type: 'regional'
+  },
+
+  // 東北
+  AOJ: {
+    iata: 'AOJ', name: '青森空港', nameEn: 'Aomori Airport',
+    status: 'implemented', region: 'tohoku', type: 'regional'
+  },
+  AXT: {
+    iata: 'AXT', name: '秋田空港', nameEn: 'Akita Airport',
+    status: 'implemented', region: 'tohoku', type: 'regional'
+  },
+  GAJ: {
+    iata: 'GAJ', name: '山形空港', nameEn: 'Yamagata Airport',
+    status: 'implemented', region: 'tohoku', type: 'regional'
+  },
+  HNA: {
+    iata: 'HNA', name: '花巻空港', nameEn: 'Iwate Hanamaki Airport',
+    status: 'implemented', region: 'tohoku', type: 'regional'
+  },
+  FKS: {
+    iata: 'FKS', name: '福島空港', nameEn: 'Fukushima Airport',
+    status: 'implemented', region: 'tohoku', type: 'regional'
+  },
+  MSJ: {
+    iata: 'MSJ', name: '三沢空港', nameEn: 'Misawa Airport',
+    status: 'implemented', region: 'tohoku', type: 'regional'
+  },
+  SYO: {
+    iata: 'SYO', name: '庄内空港', nameEn: 'Shonai Airport',
+    status: 'implemented', region: 'tohoku', type: 'regional'
+  },
+  ONJ: {
+    iata: 'ONJ', name: '大館能代空港', nameEn: 'Odate Noshiro Airport',
+    status: 'implemented', region: 'tohoku', type: 'regional'
+  },
+
+  // 関東
+  IBR: {
+    iata: 'IBR', name: '茨城空港', nameEn: 'Ibaraki Airport',
+    status: 'implemented', region: 'kanto', type: 'regional'
+  },
+  HAC: {
+    iata: 'HAC', name: '八丈島空港', nameEn: 'Hachijojima Airport',
+    status: 'implemented', region: 'kanto', type: 'regional'
+  },
+  OIM: {
+    iata: 'OIM', name: '大島空港', nameEn: 'Oshima Airport',
+    status: 'implemented', region: 'kanto', type: 'regional'
+  },
+
+  // 中部
+  MMJ: {
+    iata: 'MMJ', name: '松本空港', nameEn: 'Shinshu-Matsumoto Airport',
+    status: 'implemented', region: 'chubu', type: 'regional'
+  },
+  TOY: {
+    iata: 'TOY', name: '富山空港', nameEn: 'Toyama Airport',
+    status: 'implemented', region: 'chubu', type: 'regional'
+  },
+  KMQ: {
+    iata: 'KMQ', name: '小松空港', nameEn: 'Komatsu Airport',
+    status: 'implemented', region: 'chubu', type: 'regional'
+  },
+  FSZ: {
+    iata: 'FSZ', name: '静岡空港', nameEn: 'Mount Fuji Shizuoka Airport',
+    status: 'implemented', region: 'chubu', type: 'regional'
+  },
+  KIJ: {
+    iata: 'KIJ', name: '新潟空港', nameEn: 'Niigata Airport',
+    status: 'implemented', region: 'chubu', type: 'regional'
+  },
+  NTQ: {
+    iata: 'NTQ', name: '能登空港', nameEn: 'Noto Satoyama Airport',
+    status: 'implemented', region: 'chubu', type: 'regional'
+  },
+  NKM: {
+    iata: 'NKM', name: '名古屋空港', nameEn: 'Nagoya Airport',
+    status: 'implemented', region: 'chubu', type: 'regional'
+  },
+
+  // 関西
+  UKB: {
+    iata: 'UKB', name: '神戸空港', nameEn: 'Kobe Airport',
+    status: 'implemented', region: 'kansai', type: 'regional'
+  },
+  SHM: {
+    iata: 'SHM', name: '白浜空港', nameEn: 'Nanki Shirahama Airport',
+    status: 'implemented', region: 'kansai', type: 'regional'
+  },
+
+  // 中国・四国
+  HIJ: {
+    iata: 'HIJ', name: '広島空港', nameEn: 'Hiroshima Airport',
+    status: 'implemented', region: 'chugoku', type: 'regional'
+  },
+  OKJ: {
+    iata: 'OKJ', name: '岡山空港', nameEn: 'Okayama Airport',
+    status: 'implemented', region: 'chugoku', type: 'regional'
+  },
+  YGJ: {
+    iata: 'YGJ', name: '米子空港', nameEn: 'Yonago Airport',
+    status: 'implemented', region: 'chugoku', type: 'regional'
+  },
+  IZO: {
+    iata: 'IZO', name: '出雲空港', nameEn: 'Izumo Airport',
+    status: 'implemented', region: 'chugoku', type: 'regional'
+  },
+  IWJ: {
+    iata: 'IWJ', name: '岩国空港', nameEn: 'Iwami Airport',
+    status: 'implemented', region: 'chugoku', type: 'regional'
+  },
+  IWK: {
+    iata: 'IWK', name: '岩国錦帯橋空港', nameEn: 'Iwakuni Airport',
+    status: 'implemented', region: 'chugoku', type: 'regional'
+  },
+  TTJ: {
+    iata: 'TTJ', name: '鳥取空港', nameEn: 'Tottori Airport',
+    status: 'implemented', region: 'chugoku', type: 'regional'
+  },
+  TAK: {
+    iata: 'TAK', name: '高松空港', nameEn: 'Takamatsu Airport',
+    status: 'implemented', region: 'shikoku', type: 'regional'
+  },
+  TKS: {
+    iata: 'TKS', name: '徳島空港', nameEn: 'Tokushima Airport',
+    status: 'implemented', region: 'shikoku', type: 'regional'
+  },
+  KCZ: {
+    iata: 'KCZ', name: '高知空港', nameEn: 'Kochi Airport',
+    status: 'implemented', region: 'shikoku', type: 'regional'
+  },
+
+  // 九州
+  HSG: {
+    iata: 'HSG', name: '佐賀空港', nameEn: 'Saga Airport',
+    status: 'implemented', region: 'kyushu', type: 'regional'
+  },
+  NGS: {
+    iata: 'NGS', name: '長崎空港', nameEn: 'Nagasaki Airport',
+    status: 'implemented', region: 'kyushu', type: 'regional'
+  },
+  KOJ: {
+    iata: 'KOJ', name: '鹿児島空港', nameEn: 'Kagoshima Airport',
+    status: 'implemented', region: 'kyushu', type: 'regional'
+  },
+  KMI: {
+    iata: 'KMI', name: '宮崎空港', nameEn: 'Miyazaki Airport',
+    status: 'implemented', region: 'kyushu', type: 'regional'
+  },
+  OIT: {
+    iata: 'OIT', name: '大分空港', nameEn: 'Oita Airport',
+    status: 'implemented', region: 'kyushu', type: 'regional'
+  },
+  FUJ: {
+    iata: 'FUJ', name: '五島福江空港', nameEn: 'Fukue Airport',
+    status: 'implemented', region: 'kyushu', type: 'regional'
+  },
+  IKI: {
+    iata: 'IKI', name: '壱岐空港', nameEn: 'Iki Airport',
+    status: 'implemented', region: 'kyushu', type: 'regional'
+  },
+  TSJ: {
+    iata: 'TSJ', name: '対馬空港', nameEn: 'Tsushima Airport',
+    status: 'implemented', region: 'kyushu', type: 'regional'
+  },
+  ASJ: {
+    iata: 'ASJ', name: '奄美空港', nameEn: 'Amami Airport',
+    status: 'implemented', region: 'kyushu', type: 'regional'
+  },
+
+  // 沖縄
+  MMY: {
+    iata: 'MMY', name: '宮古空港', nameEn: 'Miyako Airport',
+    status: 'implemented', region: 'okinawa', type: 'regional'
+  },
+  UEO: {
+    iata: 'UEO', name: '久米島空港', nameEn: 'Kumejima Airport',
+    status: 'implemented', region: 'okinawa', type: 'regional'
+  }
 };
 
 // カバー率計算ユーティリティ

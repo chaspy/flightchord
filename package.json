@@ -16,7 +16,8 @@
     "fix-bidirectional": "tsx scripts/fix-bidirectional-routes.ts",
     "add-airport": "tsx scripts/add-airport.ts",
     "add-airline": "tsx scripts/add-airline.ts",
-    "sync-ourairports": "tsx scripts/sync-ourairports.ts"
+    "sync-ourairports": "tsx scripts/sync-ourairports.ts",
+    "bootstrap-openflights": "tsx scripts/bootstrap-openflights.ts"
   },
   "dependencies": {
     "@turf/great-circle": "^7.2.0",
