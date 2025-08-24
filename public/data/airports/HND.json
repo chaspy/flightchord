@@ -33,6 +33,50 @@
       "destinations": [
         { "iata": "LAX", "freq_per_day": 1, "intl": true }
       ]
+    },
+    "7G": {
+      "destinations": [
+        { 
+          "iata": "KKJ", 
+          "freq_per_day": 4, 
+          "intl": false,
+          "sources": [
+            {
+              "title": "スターフライヤー公式時刻表",
+              "url": "https://www.starflyer.jp/timetable/"
+            },
+            {
+              "title": "北九州空港公式サイト",
+              "url": "https://www.kitakyu-air.jp/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        { 
+          "iata": "FUK", 
+          "freq_per_day": null, 
+          "intl": false,
+          "sources": [
+            {
+              "title": "スターフライヤー公式時刻表",
+              "url": "https://www.starflyer.jp/timetable/hnd-fuk.html"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        { 
+          "iata": "KIX", 
+          "freq_per_day": null, 
+          "intl": false,
+          "sources": [
+            {
+              "title": "スターフライヤー公式時刻表",
+              "url": "https://www.starflyer.jp/timetable/hnd-kix.html"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
     }
   }
 }

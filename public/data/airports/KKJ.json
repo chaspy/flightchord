@@ -1,0 +1,24 @@
+{
+  "airport": "KKJ",
+  "updatedAt": "2025-08-24",
+  "source": [
+    {
+      "url": "https://www.starflyer.jp/timetable/hnd-kkj.html",
+      "lastChecked": "2025-08-24",
+      "description": "スターフライヤー公式時刻表"
+    }
+  ],
+  "carriers": {
+    "7G": {
+      "destinations": [
+        { 
+          "iata": "HND", 
+          "freq_per_day": 6, 
+          "intl": false,
+          "verified": true,
+          "source": "https://www.starflyer.jp/timetable/hnd-kkj.html"
+        }
+      ]
+    }
+  }
+}

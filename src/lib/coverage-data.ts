@@ -56,7 +56,7 @@ export const ALL_AIRLINES: Record<string, AirlineInfo> = {
   },
   '7G': {
     iata: '7G', icao: 'SFJ', name: 'スターフライヤー', nameEn: 'StarFlyer',
-    status: 'planned', type: 'regional', base: 'KKJ'
+    status: 'implemented', type: 'regional', base: 'KKJ'
   },
   '6J': {
     iata: '6J', icao: 'SNJ', name: 'ソラシドエア', nameEn: 'Solaseed Air',
@@ -112,6 +112,10 @@ export const ALL_AIRPORTS: Record<string, AirportInfo> = {
   FUK: {
     iata: 'FUK', icao: 'RJFF', name: '福岡空港', nameEn: 'Fukuoka Airport',
     status: 'implemented', region: 'kyushu', type: 'major'
+  },
+  KKJ: {
+    iata: 'KKJ', icao: 'RJFR', name: '北九州空港', nameEn: 'Kitakyushu Airport',
+    status: 'implemented', region: 'kyushu', type: 'regional'
   },
   CTS: {
     iata: 'CTS', icao: 'RJCC', name: '新千歳空港', nameEn: 'New Chitose',
