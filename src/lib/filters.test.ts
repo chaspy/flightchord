@@ -24,6 +24,20 @@ describe("isDomestic", () => {
       lat: 1.3502, 
       lon: 103.9944, 
       iso_country: "SG" 
+    },
+    ICN: { 
+      iata: "ICN", 
+      name: "Seoul Incheon", 
+      lat: 37.4602, 
+      lon: 126.4407, 
+      iso_country: "KR" 
+    },
+    CJU: { 
+      iata: "CJU", 
+      name: "Jeju International", 
+      lat: 33.5126, 
+      lon: 126.4930, 
+      iso_country: "KR" 
     }
   };
 
@@ -33,6 +47,14 @@ describe("isDomestic", () => {
 
   it("returns false for JP-SG routes", () => {
     expect(isDomestic("HND", "SIN", airports)).toBe(false);
+  });
+
+  it("returns false for JP-KR routes", () => {
+    expect(isDomestic("HND", "ICN", airports)).toBe(false);
+  });
+
+  it("returns false for KR-KR routes (only JP domestic allowed)", () => {
+    expect(isDomestic("ICN", "CJU", airports)).toBe(false);
   });
 
   it("returns false when source airport not found", () => {

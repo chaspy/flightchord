@@ -4,5 +4,6 @@ export function isDomestic(srcIata: string, dstIata: string, airports: Record<st
   const s = airports[srcIata];
   const d = airports[dstIata];
   if (!s || !d) return false;
-  return s.iso_country === d.iso_country;
+  // FlightChordでは「国内線」は日本国内線のみを意味する
+  return s.iso_country === 'JP' && d.iso_country === 'JP';
 }
