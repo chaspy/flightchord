@@ -1,0 +1,24 @@
+{
+  "airport": "KMJ",
+  "updatedAt": "2025-08-24",
+  "carriers": {
+    "NH": {
+      "destinations": [
+        { "iata": "HND", "freq_per_day": 2, "intl": false },
+        { "iata": "NRT", "freq_per_day": 1, "intl": false },
+        { "iata": "KIX", "freq_per_day": 2, "intl": false }
+      ]
+    },
+    "JL": {
+      "destinations": [
+        { "iata": "HND", "freq_per_day": 2, "intl": false },
+        { "iata": "KIX", "freq_per_day": 1, "intl": false }
+      ]
+    },
+    "6J": {
+      "destinations": [
+        { "iata": "HND", "freq_per_day": 1, "intl": false }
+      ]
+    }
+  }
+}

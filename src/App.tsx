@@ -1,7 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import type { Map } from "maplibre-gl";
+import { Popup } from "maplibre-gl";
 import MapCanvas from "./components/MapCanvas";
 import Controls from "./components/Controls";
+import CoverageInfo from "./components/CoverageInfo";
 import { arc } from "./lib/geo";
 import { loadAirports, loadAirlines, loadAirportIndex } from "./lib/data";
 import { isDomestic } from "./lib/filters";
@@ -15,6 +17,7 @@ export default function App() {
   const [domesticOnly, setDomesticOnly] = useState(true);
   const [enabledCarriers, setEnabledCarriers] = useState<Record<string, boolean>>({});
   const [mapReady, setMapReady] = useState(false);
+  const popupRef = useRef<Popup | null>(null);
 
   useEffect(() => {
     (async () => {
@@ -41,6 +44,133 @@ export default function App() {
     }
   }, [airports, selected, domesticOnly, enabledCarriers, mapReady]);
 
+  // 空港クリック時のハンドラー
+  const handleAirportClick = async (e: any) => {
+    if (!e.features || !e.features[0]) return;
+    
+    const feature = e.features[0];
+    const { iata, name, connections } = feature.properties;
+    const coordinates = e.lngLat;
+    
+    // 既存のポップアップを削除
+    if (popupRef.current) {
+      popupRef.current.remove();
+    }
+    
+    try {
+      // 空港データを読み込み
+      const airportIndex = await loadAirportIndex(iata);
+      
+      // 表示する航空会社をフィルタリング
+      const availableAirlines = Object.entries(airportIndex.carriers)
+        .filter(([code]) => enabledCarriers[code])
+        .map(([code, carrier]) => ({
+          code,
+          name: airlines[code]?.name || code,
+          destinations: carrier.destinations.filter(dest => {
+            if (domesticOnly && !isDomestic(iata, dest.iata, airports)) return false;
+            return true;
+          })
+        }));
+      
+      const totalRoutes = availableAirlines.reduce((sum, airline) => sum + airline.destinations.length, 0);
+      
+      // ポップアップのHTMLコンテンツを作成
+      const popupContent = `
+        <div class="airport-popup-content">
+          <div class="popup-header">
+            <h3>${iata} - ${name}</h3>
+          </div>
+          <div class="popup-content">
+            <div class="summary">
+              <div class="metric">
+                <span class="label">総接続数:</span>
+                <span class="value">${connections}</span>
+              </div>
+              <div class="metric">
+                <span class="label">総路線数:</span>
+                <span class="value">${totalRoutes}</span>
+              </div>
+            </div>
+            <div class="airlines-section">
+              <h4>運航航空会社 (${availableAirlines.length}社)</h4>
+              ${availableAirlines.length === 0 ? 
+                '<p class="no-data">表示可能な航空会社がありません</p>' :
+                `<div class="airlines-list">
+                  ${availableAirlines.map(airline => `
+                    <div class="airline-item">
+                      <div class="airline-header">
+                        <span class="airline-code">${airline.code}</span>
+                        <span class="airline-name">${airline.name}</span>
+                        <span class="route-count">${airline.destinations.length}路線</span>
+                      </div>
+                      <div class="destinations">
+                        ${airline.destinations.slice(0, 6).map(dest => `
+                          <span class="destination">
+                            ${dest.iata}
+                            ${dest.freq_per_day && dest.freq_per_day > 0 ? 
+                              `<span class="frequency">(${dest.freq_per_day}/日)</span>` : ''}
+                          </span>
+                        `).join('')}
+                        ${airline.destinations.length > 6 ? 
+                          `<span class="more">他${airline.destinations.length - 6}路線</span>` : ''}
+                      </div>
+                    </div>
+                  `).join('')}
+                </div>`
+              }
+            </div>
+          </div>
+        </div>
+      `;
+      
+      // 新しいポップアップを作成
+      popupRef.current = new Popup({
+        closeButton: true,
+        closeOnClick: true,
+        maxWidth: '300px'
+      })
+        .setLngLat(coordinates)
+        .setHTML(popupContent)
+        .addTo(mapRef.current!);
+      
+    } catch (error) {
+      console.error(`Failed to load airport data for ${iata}:`, error);
+      
+      // エラー時のシンプルなポップアップ
+      popupRef.current = new Popup({
+        closeButton: true,
+        closeOnClick: true
+      })
+        .setLngLat(coordinates)
+        .setHTML(`
+          <div class="airport-popup-content">
+            <h3>${iata} - ${name}</h3>
+            <p>データの読み込みに失敗しました</p>
+          </div>
+        `)
+        .addTo(mapRef.current!);
+    }
+  };
+
+  // 空港レイヤーにクリックイベントを追加する関数
+  const addAirportClickHandler = (map: Map) => {
+    // 既存のイベントリスナーを削除（重複を避ける）
+    map.off('click', 'airports', handleAirportClick);
+    
+    // 空港クリック用イベントリスナーのみ追加
+    map.on('click', 'airports', handleAirportClick);
+    
+    // マウスカーソルをポインターに変更
+    map.on('mouseenter', 'airports', () => {
+      map.getCanvas().style.cursor = 'pointer';
+    });
+    
+    map.on('mouseleave', 'airports', () => {
+      map.getCanvas().style.cursor = '';
+    });
+  };
+
   async function renderAllAirports() {
     if (!mapRef.current) return;
     const map = mapRef.current;
@@ -54,7 +184,7 @@ export default function App() {
     }
     
     try {
-      const availableAirports = ["HND", "NRT", "FUK", "CTS", "OKA", "KIX", "SIN", "ICN", "LAX"];
+      const availableAirports = ["HND", "NRT", "KIX", "ITM", "NGO", "FUK", "CTS", "OKA", "SDJ", "KMJ", "MYJ", "ISG", "SIN", "ICN", "LAX"];
       const routeFeatures: any[] = [];
       const airportFeatures: any[] = [];
       const airportCounts = new Map<string, number>();
@@ -205,6 +335,11 @@ export default function App() {
         } catch (error) {
           console.error("Failed to update airports data:", error);
         }
+      }
+
+      // 空港レイヤーが存在する場合のみクリックイベントを追加
+      if (map.getLayer('airports')) {
+        addAirportClickHandler(map);
       }
 
       // 全体表示モードでは最適なズームレベルに設定
@@ -379,6 +514,11 @@ export default function App() {
         }
       }
 
+      // 空港レイヤーが存在する場合のみクリックイベントを追加
+      if (map.getLayer('airports')) {
+        addAirportClickHandler(map);
+      }
+
       // ズーム設定: Domestic onlyモード時は日本、そうでなければ世界全体
       if (domesticOnly) {
         const japanBounds = [
@@ -423,6 +563,9 @@ export default function App() {
             setEnabledCarriers(s => ({ ...s, [code]: checked })); 
           }}
         />
+      </div>
+      <div className="coverage-panel">
+        <CoverageInfo />
       </div>
     </>
   );

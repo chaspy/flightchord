@@ -1,0 +1,31 @@
+{
+  "airport": "NGO",
+  "updatedAt": "2025-08-24",
+  "carriers": {
+    "NH": {
+      "destinations": [
+        { "iata": "HND", "freq_per_day": 4, "intl": false },
+        { "iata": "CTS", "freq_per_day": 3, "intl": false },
+        { "iata": "FUK", "freq_per_day": 2, "intl": false },
+        { "iata": "OKA", "freq_per_day": 2, "intl": false },
+        { "iata": "SIN", "freq_per_day": 1, "intl": true },
+        { "iata": "ICN", "freq_per_day": 2, "intl": true }
+      ]
+    },
+    "JL": {
+      "destinations": [
+        { "iata": "HND", "freq_per_day": 3, "intl": false },
+        { "iata": "FUK", "freq_per_day": 2, "intl": false },
+        { "iata": "CTS", "freq_per_day": 2, "intl": false },
+        { "iata": "OKA", "freq_per_day": 1, "intl": false }
+      ]
+    },
+    "GK": {
+      "destinations": [
+        { "iata": "HND", "freq_per_day": 2, "intl": false },
+        { "iata": "FUK", "freq_per_day": 1, "intl": false },
+        { "iata": "OKA", "freq_per_day": 1, "intl": false }
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "airport": "ITM",
+  "updatedAt": "2025-08-24",
+  "carriers": {
+    "NH": {
+      "destinations": [
+        { "iata": "CTS", "freq_per_day": 4, "intl": false },
+        { "iata": "HND", "freq_per_day": 8, "intl": false },
+        { "iata": "FUK", "freq_per_day": 3, "intl": false },
+        { "iata": "OKA", "freq_per_day": 2, "intl": false }
+      ]
+    },
+    "JL": {
+      "destinations": [
+        { "iata": "HND", "freq_per_day": 6, "intl": false },
+        { "iata": "CTS", "freq_per_day": 3, "intl": false },
+        { "iata": "FUK", "freq_per_day": 2, "intl": false },
+        { "iata": "OKA", "freq_per_day": 1, "intl": false }
+      ]
+    },
+    "BC": {
+      "destinations": [
+        { "iata": "HND", "freq_per_day": 4, "intl": false },
+        { "iata": "CTS", "freq_per_day": 2, "intl": false },
+        { "iata": "OKA", "freq_per_day": 1, "intl": false }
+      ]
+    }
+  }
+}
