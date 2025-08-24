@@ -11,12 +11,19 @@
   "carriers": {
     "7G": {
       "destinations": [
-        { 
-          "iata": "HND", 
-          "freq_per_day": 6, 
+        {
+          "iata": "HND",
+          "freq_per_day": 6,
           "intl": false,
           "verified": true,
-          "source": "https://www.starflyer.jp/timetable/hnd-kkj.html"
+          "source": "https://www.starflyer.jp/timetable/hnd-kkj.html",
+          "sources": [
+            {
+              "title": "7G公式時刻表（要確認）",
+              "url": "https://example.com/verify-required"
+            }
+          ],
+          "lastChecked": "2025-08-24"
         }
       ]
     }

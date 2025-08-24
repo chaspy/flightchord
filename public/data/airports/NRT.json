@@ -4,37 +4,202 @@
   "carriers": {
     "NH": {
       "destinations": [
-        { "iata": "HND", "freq_per_day": 2, "intl": false },
-        { "iata": "KIX", "freq_per_day": 4, "intl": false },
-        { "iata": "FUK", "freq_per_day": 3, "intl": false },
-        { "iata": "LAX", "freq_per_day": 3, "intl": true },
-        { "iata": "SIN", "freq_per_day": 4, "intl": true },
-        { "iata": "ICN", "freq_per_day": 3, "intl": true }
+        {
+          "iata": "HND",
+          "freq_per_day": 2,
+          "intl": false,
+          "sources": [
+            {
+              "title": "ANA公式時刻表",
+              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "KIX",
+          "freq_per_day": 4,
+          "intl": false,
+          "sources": [
+            {
+              "title": "ANA公式時刻表",
+              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "FUK",
+          "freq_per_day": 3,
+          "intl": false,
+          "sources": [
+            {
+              "title": "ANA公式時刻表",
+              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "LAX",
+          "freq_per_day": 3,
+          "intl": true,
+          "sources": [
+            {
+              "title": "ANA公式時刻表",
+              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "SIN",
+          "freq_per_day": 4,
+          "intl": true,
+          "sources": [
+            {
+              "title": "ANA公式時刻表",
+              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "ICN",
+          "freq_per_day": 3,
+          "intl": true,
+          "sources": [
+            {
+              "title": "ANA公式時刻表",
+              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
       ]
     },
     "JL": {
       "destinations": [
-        { "iata": "HND", "freq_per_day": 1, "intl": false },
-        { "iata": "KIX", "freq_per_day": 3, "intl": false },
-        { "iata": "CTS", "freq_per_day": 2, "intl": false },
-        { "iata": "LAX", "freq_per_day": 3, "intl": true },
-        { "iata": "SIN", "freq_per_day": 3, "intl": true },
-        { "iata": "ICN", "freq_per_day": 4, "intl": true }
+        {
+          "iata": "HND",
+          "freq_per_day": 1,
+          "intl": false,
+          "sources": [
+            {
+              "title": "JAL公式時刻表",
+              "url": "https://www.jal.co.jp/jp/ja/jmb/flightschedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "KIX",
+          "freq_per_day": 3,
+          "intl": false,
+          "sources": [
+            {
+              "title": "JAL公式時刻表",
+              "url": "https://www.jal.co.jp/jp/ja/jmb/flightschedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "CTS",
+          "freq_per_day": 2,
+          "intl": false,
+          "sources": [
+            {
+              "title": "JAL公式時刻表",
+              "url": "https://www.jal.co.jp/jp/ja/jmb/flightschedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "LAX",
+          "freq_per_day": 3,
+          "intl": true,
+          "sources": [
+            {
+              "title": "JAL公式時刻表",
+              "url": "https://www.jal.co.jp/jp/ja/jmb/flightschedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "SIN",
+          "freq_per_day": 3,
+          "intl": true,
+          "sources": [
+            {
+              "title": "JAL公式時刻表",
+              "url": "https://www.jal.co.jp/jp/ja/jmb/flightschedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "ICN",
+          "freq_per_day": 4,
+          "intl": true,
+          "sources": [
+            {
+              "title": "JAL公式時刻表",
+              "url": "https://www.jal.co.jp/jp/ja/jmb/flightschedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
       ]
     },
     "UA": {
       "destinations": [
-        { "iata": "LAX", "freq_per_day": 2, "intl": true }
+        {
+          "iata": "LAX",
+          "freq_per_day": 2,
+          "intl": true,
+          "sources": [
+            {
+              "title": "ユナイテッド航空公式時刻表",
+              "url": "https://www.united.com/ja/jp/fly/schedules"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
       ]
     },
     "SQ": {
       "destinations": [
-        { "iata": "SIN", "freq_per_day": 2, "intl": true }
+        {
+          "iata": "SIN",
+          "freq_per_day": 2,
+          "intl": true,
+          "sources": [
+            {
+              "title": "シンガポール航空公式時刻表",
+              "url": "https://www.singaporeair.com/ja_JP/jp/plan-travel/timetables/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
       ]
     },
     "KE": {
       "destinations": [
-        { "iata": "ICN", "freq_per_day": 2, "intl": true }
+        {
+          "iata": "ICN",
+          "freq_per_day": 2,
+          "intl": true,
+          "sources": [
+            {
+              "title": "大韓航空公式時刻表",
+              "url": "https://www.koreanair.com/jp/ja/schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
       ]
     }
   }

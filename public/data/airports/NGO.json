@@ -4,34 +4,177 @@
   "carriers": {
     "NH": {
       "destinations": [
-        { "iata": "HND", "freq_per_day": 4, "intl": false },
-        { "iata": "CTS", "freq_per_day": 3, "intl": false },
-        { "iata": "FUK", "freq_per_day": 2, "intl": false },
-        { "iata": "OKA", "freq_per_day": 2, "intl": false },
-        { "iata": "SIN", "freq_per_day": 1, "intl": true },
-        { "iata": "ICN", "freq_per_day": 2, "intl": true }
+        {
+          "iata": "HND",
+          "freq_per_day": 4,
+          "intl": false,
+          "sources": [
+            {
+              "title": "ANA公式時刻表",
+              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "CTS",
+          "freq_per_day": 3,
+          "intl": false,
+          "sources": [
+            {
+              "title": "ANA公式時刻表",
+              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "FUK",
+          "freq_per_day": 2,
+          "intl": false,
+          "sources": [
+            {
+              "title": "ANA公式時刻表",
+              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "OKA",
+          "freq_per_day": 2,
+          "intl": false,
+          "sources": [
+            {
+              "title": "ANA公式時刻表",
+              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "SIN",
+          "freq_per_day": 1,
+          "intl": true,
+          "sources": [
+            {
+              "title": "ANA公式時刻表",
+              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "ICN",
+          "freq_per_day": 2,
+          "intl": true,
+          "sources": [
+            {
+              "title": "ANA公式時刻表",
+              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
       ]
     },
     "JL": {
       "destinations": [
-        { "iata": "HND", "freq_per_day": 3, "intl": false },
-        { "iata": "FUK", "freq_per_day": 2, "intl": false },
-        { "iata": "CTS", "freq_per_day": 2, "intl": false },
-        { "iata": "OKA", "freq_per_day": 1, "intl": false }
+        {
+          "iata": "HND",
+          "freq_per_day": 3,
+          "intl": false,
+          "sources": [
+            {
+              "title": "JAL公式時刻表",
+              "url": "https://www.jal.co.jp/jp/ja/jmb/flightschedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "FUK",
+          "freq_per_day": 2,
+          "intl": false,
+          "sources": [
+            {
+              "title": "JAL公式時刻表",
+              "url": "https://www.jal.co.jp/jp/ja/jmb/flightschedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "CTS",
+          "freq_per_day": 2,
+          "intl": false,
+          "sources": [
+            {
+              "title": "JAL公式時刻表",
+              "url": "https://www.jal.co.jp/jp/ja/jmb/flightschedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "OKA",
+          "freq_per_day": 1,
+          "intl": false,
+          "sources": [
+            {
+              "title": "JAL公式時刻表",
+              "url": "https://www.jal.co.jp/jp/ja/jmb/flightschedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
       ]
     },
     "GK": {
       "destinations": [
-        { "iata": "HND", "freq_per_day": 2, "intl": false },
-        { "iata": "FUK", "freq_per_day": 1, "intl": false },
-        { "iata": "OKA", "freq_per_day": 1, "intl": false }
+        {
+          "iata": "HND",
+          "freq_per_day": 2,
+          "intl": false,
+          "sources": [
+            {
+              "title": "ジェットスター・ジャパン公式時刻表",
+              "url": "https://www.jetstar.com/jp/ja/flight-schedules"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "FUK",
+          "freq_per_day": 1,
+          "intl": false,
+          "sources": [
+            {
+              "title": "ジェットスター・ジャパン公式時刻表",
+              "url": "https://www.jetstar.com/jp/ja/flight-schedules"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "OKA",
+          "freq_per_day": 1,
+          "intl": false,
+          "sources": [
+            {
+              "title": "ジェットスター・ジャパン公式時刻表",
+              "url": "https://www.jetstar.com/jp/ja/flight-schedules"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
       ]
     },
     "7G": {
       "destinations": [
-        { 
-          "iata": "FUK", 
-          "freq_per_day": null, 
+        {
+          "iata": "FUK",
+          "freq_per_day": null,
           "intl": false,
           "sources": [
             {

@@ -4,18 +4,62 @@
   "carriers": {
     "NU": {
       "destinations": [
-        { "iata": "OKA", "freq_per_day": 3, "intl": false },
-        { "iata": "ISG", "freq_per_day": 1, "intl": false }
+        {
+          "iata": "OKA",
+          "freq_per_day": 3,
+          "intl": false,
+          "sources": [
+            {
+              "title": "JTA公式時刻表",
+              "url": "https://www.jta.co.jp/schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "ISG",
+          "freq_per_day": 1,
+          "intl": false,
+          "sources": [
+            {
+              "title": "JTA公式時刻表",
+              "url": "https://www.jta.co.jp/schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
       ]
     },
     "RC": {
       "destinations": [
-        { "iata": "OKA", "freq_per_day": 2, "intl": false }
+        {
+          "iata": "OKA",
+          "freq_per_day": 2,
+          "intl": false,
+          "sources": [
+            {
+              "title": "JAC公式時刻表",
+              "url": "https://www.jac.co.jp/schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
       ]
     },
     "OC": {
       "destinations": [
-        { "iata": "ISG", "freq_per_day": 1, "intl": false }
+        {
+          "iata": "ISG",
+          "freq_per_day": 1,
+          "intl": false,
+          "sources": [
+            {
+              "title": "RAC公式時刻表",
+              "url": "https://www.rac.co.jp/schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
       ]
     }
   }

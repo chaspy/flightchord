@@ -4,25 +4,102 @@
   "carriers": {
     "NU": {
       "destinations": [
-        { "iata": "OKA", "freq_per_day": 4, "intl": false },
-        { "iata": "MYJ", "freq_per_day": 1, "intl": false },
-        { "iata": "HND", "freq_per_day": 1, "intl": false }
+        {
+          "iata": "OKA",
+          "freq_per_day": 4,
+          "intl": false,
+          "sources": [
+            {
+              "title": "JTA公式時刻表",
+              "url": "https://www.jta.co.jp/schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "MYJ",
+          "freq_per_day": 1,
+          "intl": false,
+          "sources": [
+            {
+              "title": "JTA公式時刻表",
+              "url": "https://www.jta.co.jp/schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "HND",
+          "freq_per_day": 1,
+          "intl": false,
+          "sources": [
+            {
+              "title": "JTA公式時刻表",
+              "url": "https://www.jta.co.jp/schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
       ]
     },
     "JL": {
       "destinations": [
-        { "iata": "OKA", "freq_per_day": 2, "intl": false },
-        { "iata": "HND", "freq_per_day": 1, "intl": false }
+        {
+          "iata": "OKA",
+          "freq_per_day": 2,
+          "intl": false,
+          "sources": [
+            {
+              "title": "JAL公式時刻表",
+              "url": "https://www.jal.co.jp/jp/ja/jmb/flightschedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "HND",
+          "freq_per_day": 1,
+          "intl": false,
+          "sources": [
+            {
+              "title": "JAL公式時刻表",
+              "url": "https://www.jal.co.jp/jp/ja/jmb/flightschedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
       ]
     },
     "MM": {
       "destinations": [
-        { "iata": "KIX", "freq_per_day": 2, "intl": false }
+        {
+          "iata": "KIX",
+          "freq_per_day": 2,
+          "intl": false,
+          "sources": [
+            {
+              "title": "ピーチ・アビエーション公式時刻表",
+              "url": "https://www.flypeach.com/jp/ja/schedule"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
       ]
     },
     "OC": {
       "destinations": [
-        { "iata": "MYJ", "freq_per_day": 1, "intl": false }
+        {
+          "iata": "MYJ",
+          "freq_per_day": 1,
+          "intl": false,
+          "sources": [
+            {
+              "title": "RAC公式時刻表",
+              "url": "https://www.rac.co.jp/schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
       ]
     }
   }
