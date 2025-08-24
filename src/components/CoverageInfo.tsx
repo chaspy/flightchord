@@ -84,8 +84,11 @@ export default function CoverageInfo() {
 
           <div className="meta-info">
             <p><strong>最終更新:</strong> 2025年8月24日</p>
-            <p><strong>データソース:</strong> 航空会社公式サイト、国土交通省航空局</p>
-            <p><strong>今後の予定:</strong> Phase 2でLCC 3社、Phase 3で地方空港を順次追加予定</p>
+            <p><strong>データソース:</strong></p>
+            <p>• 空港情報: <a href="https://ourairports.com/" target="_blank" style={{color: '#4CAF50'}}>OurAirports</a> (CC0)</p>
+            <p>• 初期路線: <a href="https://openflights.org/" target="_blank" style={{color: '#4CAF50'}}>OpenFlights</a> (ODbL)</p>
+            <p>• 公式時刻表: 各航空会社公式サイト</p>
+            <p>• 統計確認: 国土交通省航空輸送統計</p>
           </div>
         </div>
       )}

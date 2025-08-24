@@ -15,11 +15,13 @@
     "add-sources": "tsx scripts/add-source-attribution.ts",
     "fix-bidirectional": "tsx scripts/fix-bidirectional-routes.ts",
     "add-airport": "tsx scripts/add-airport.ts",
-    "add-airline": "tsx scripts/add-airline.ts"
+    "add-airline": "tsx scripts/add-airline.ts",
+    "sync-ourairports": "tsx scripts/sync-ourairports.ts"
   },
   "dependencies": {
     "@turf/great-circle": "^7.2.0",
     "@turf/helpers": "^7.2.0",
+    "csv-parse": "^6.1.0",
     "maplibre-gl": "^5.6.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
