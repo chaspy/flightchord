@@ -34,6 +34,46 @@
         { "iata": "NRT", "freq_per_day": 2, "intl": false },
         { "iata": "KIX", "freq_per_day": 3, "intl": false }
       ]
+    },
+    "7G": {
+      "destinations": [
+        { 
+          "iata": "HND", 
+          "freq_per_day": null, 
+          "intl": false,
+          "sources": [
+            {
+              "title": "スターフライヤー公式時刻表",
+              "url": "https://www.starflyer.jp/timetable/hnd-fuk.html"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        { 
+          "iata": "NGO", 
+          "freq_per_day": null, 
+          "intl": false,
+          "sources": [
+            {
+              "title": "スターフライヤー公式時刻表",
+              "url": "https://www.starflyer.jp/timetable/ngo-fuk.html"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        { 
+          "iata": "SDJ", 
+          "freq_per_day": null, 
+          "intl": false,
+          "sources": [
+            {
+              "title": "スターフライヤー公式時刻表（福岡⇔仙台）",
+              "url": "https://www.starflyer.jp/timetable/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
     }
   }
 }

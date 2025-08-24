@@ -183,7 +183,7 @@ export default function App() {
     }
     
     try {
-      const availableAirports = ["HND", "NRT", "KIX", "ITM", "NGO", "FUK", "KKJ", "CTS", "OKA", "SDJ", "KMJ", "MYJ", "ISG", "SIN", "ICN", "LAX"];
+      const availableAirports = ["HND", "NRT", "KIX", "ITM", "NGO", "FUK", "KKJ", "UBJ", "CTS", "OKA", "SDJ", "KMJ", "MYJ", "ISG", "SIN", "ICN", "LAX"];
       const routeFeatures: any[] = [];
       const airportFeatures: any[] = [];
       const airportCounts = new Map<string, number>();

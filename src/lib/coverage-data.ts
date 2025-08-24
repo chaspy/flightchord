@@ -94,9 +94,9 @@ export const ALL_AIRLINES: Record<string, AirlineInfo> = {
   }
 };
 
-// 日本国内主要空港リスト
+// 実際に実装済みの空港のみ（虚偽カバレッジを廃止）
 export const ALL_AIRPORTS: Record<string, AirportInfo> = {
-  // 実装済み
+  // 実装済み（データファイル存在確認済み）
   HND: {
     iata: 'HND', icao: 'RJTT', name: '東京国際空港（羽田）', nameEn: 'Tokyo Haneda',
     status: 'implemented', region: 'kanto', type: 'major'
@@ -108,6 +108,14 @@ export const ALL_AIRPORTS: Record<string, AirportInfo> = {
   KIX: {
     iata: 'KIX', icao: 'RJBB', name: '関西国際空港', nameEn: 'Kansai International',
     status: 'implemented', region: 'kansai', type: 'major'
+  },
+  ITM: {
+    iata: 'ITM', icao: 'RJOO', name: '大阪国際空港（伊丹）', nameEn: 'Osaka International (Itami)',
+    status: 'implemented', region: 'kansai', type: 'major'
+  },
+  NGO: {
+    iata: 'NGO', icao: 'RJGG', name: '中部国際空港', nameEn: 'Chubu Centrair International',
+    status: 'implemented', region: 'chubu', type: 'major'
   },
   FUK: {
     iata: 'FUK', icao: 'RJFF', name: '福岡空港', nameEn: 'Fukuoka Airport',
@@ -124,16 +132,6 @@ export const ALL_AIRPORTS: Record<string, AirportInfo> = {
   OKA: {
     iata: 'OKA', icao: 'ROAH', name: '那覇空港', nameEn: 'Naha Airport',
     status: 'implemented', region: 'okinawa', type: 'major'
-  },
-
-  // 実装済み（追加空港）
-  ITM: {
-    iata: 'ITM', icao: 'RJOO', name: '大阪国際空港（伊丹）', nameEn: 'Osaka International (Itami)',
-    status: 'implemented', region: 'kansai', type: 'major'
-  },
-  NGO: {
-    iata: 'NGO', icao: 'RJGG', name: '中部国際空港', nameEn: 'Chubu Centrair International',
-    status: 'implemented', region: 'chubu', type: 'major'
   },
   SDJ: {
     iata: 'SDJ', icao: 'RJSS', name: '仙台空港', nameEn: 'Sendai Airport',
@@ -152,19 +150,27 @@ export const ALL_AIRPORTS: Record<string, AirportInfo> = {
     status: 'implemented', region: 'okinawa', type: 'regional'
   },
 
-  // 国際空港
+  // 国際空港（参考）
   SIN: {
     iata: 'SIN', icao: 'WSSS', name: 'チャンギ国際空港', nameEn: 'Singapore Changi',
-    status: 'implemented', region: 'kanto', type: 'major'
+    status: 'implemented', region: 'international', type: 'major'
   },
   ICN: {
     iata: 'ICN', icao: 'RKSI', name: '仁川国際空港', nameEn: 'Seoul Incheon',
-    status: 'implemented', region: 'kanto', type: 'major'
+    status: 'implemented', region: 'international', type: 'major'
   },
   LAX: {
     iata: 'LAX', icao: 'KLAX', name: 'ロサンゼルス国際空港', nameEn: 'Los Angeles International',
-    status: 'implemented', region: 'kanto', type: 'major'
-  }
+    status: 'implemented', region: 'international', type: 'major'
+  },
+
+  UBJ: {
+    iata: 'UBJ', icao: 'RJDC', name: '山口宇部空港', nameEn: 'Yamaguchi Ube Airport',
+    status: 'implemented', region: 'chugoku', type: 'regional'
+  },
+
+  // 未実装（正直な表示）
+  // 実際には100以上の空港が存在するが、現在は上記のみ実装
 };
 
 // カバー率計算ユーティリティ
