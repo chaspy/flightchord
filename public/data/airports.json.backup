@@ -1,129 +1,867 @@
 {
-  "HND": {
-    "iata": "HND",
-    "icao": "RJTT",
-    "name": "東京国際空港（羽田）",
-    "lat": 35.5494,
-    "lon": 139.7798,
-    "iso_country": "JP",
-    "city": "Tokyo"
-  },
   "NRT": {
     "iata": "NRT",
     "icao": "RJAA",
-    "name": "成田国際空港",
-    "lat": 35.7647,
-    "lon": 140.3862,
+    "name": "Narita International Airport",
+    "lat": 35.764702,
+    "lon": 140.386002,
     "iso_country": "JP",
-    "city": "Tokyo"
+    "city": "Narita"
+  },
+  "MMJ": {
+    "iata": "MMJ",
+    "icao": "RJAF",
+    "name": "Shinshu-Matsumoto Airport",
+    "lat": 36.166801,
+    "lon": 137.923004,
+    "iso_country": "JP",
+    "city": "Matsumoto"
+  },
+  "IBR": {
+    "iata": "IBR",
+    "icao": "RJAH",
+    "name": "Ibaraki Airport / JASDF Hyakuri Air Base",
+    "lat": 36.181099,
+    "lon": 140.414993,
+    "iso_country": "JP",
+    "city": "Omitama"
+  },
+  "MUS": {
+    "iata": "MUS",
+    "icao": "RJAM",
+    "name": "JMSDF Minami Torishima Air Base",
+    "lat": 24.2897,
+    "lon": 153.979004,
+    "iso_country": "JP",
+    "city": "Ogasawara"
+  },
+  "IWO": {
+    "iata": "IWO",
+    "icao": "RJAW",
+    "name": "Ioto (Iwo Jima) Airbase",
+    "lat": 24.784153,
+    "lon": 141.32261,
+    "iso_country": "JP",
+    "city": "Ogasawara"
   },
   "KIX": {
     "iata": "KIX",
     "icao": "RJBB",
-    "name": "関西国際空港",
-    "lat": 34.4347,
-    "lon": 135.2441,
+    "name": "Kansai International Airport",
+    "lat": 34.427299,
+    "lon": 135.244003,
     "iso_country": "JP",
     "city": "Osaka"
   },
-  "ITM": {
-    "iata": "ITM",
-    "icao": "RJOO",
-    "name": "大阪国際空港（伊丹）",
-    "lat": 34.7858,
-    "lon": 135.4379,
+  "SHM": {
+    "iata": "SHM",
+    "icao": "RJBD",
+    "name": "Nanki Shirahama Airport",
+    "lat": 33.6622009277,
+    "lon": 135.363998413,
     "iso_country": "JP",
-    "city": "Osaka"
+    "city": "Shirahama"
   },
-  "NGO": {
-    "iata": "NGO",
-    "icao": "RJGG",
-    "name": "中部国際空港",
-    "lat": 34.8587,
-    "lon": 136.8077,
+  "UKB": {
+    "iata": "UKB",
+    "icao": "RJBE",
+    "name": "Kobe Airport",
+    "lat": 34.6328010559082,
+    "lon": 135.2239990234375,
     "iso_country": "JP",
-    "city": "Nagoya"
+    "city": "Kobe"
   },
-  "FUK": {
-    "iata": "FUK",
-    "icao": "RJFF",
-    "name": "福岡空港",
-    "lat": 33.5859,
-    "lon": 130.4500,
+  "TJH": {
+    "iata": "TJH",
+    "icao": "RJBT",
+    "name": "Konotori Tajima Airport",
+    "lat": 35.512798,
+    "lon": 134.787003,
     "iso_country": "JP",
-    "city": "Fukuoka"
+    "city": "Toyooka"
   },
-  "KKJ": {
-    "iata": "KKJ",
-    "icao": "RJFR",
-    "name": "北九州空港",
-    "lat": 33.8459,
-    "lon": 131.0347,
+  "OBO": {
+    "iata": "OBO",
+    "icao": "RJCB",
+    "name": "Tokachi-Obihiro Airport",
+    "lat": 42.7332992554,
+    "lon": 143.216995239,
     "iso_country": "JP",
-    "city": "Kitakyushu"
-  },
-  "UBJ": {
-    "iata": "UBJ",
-    "icao": "RJDC",
-    "name": "山口宇部空港",
-    "lat": 33.9309,
-    "lon": 131.2789,
-    "iso_country": "JP",
-    "city": "Ube"
+    "city": "Obihiro"
   },
   "CTS": {
     "iata": "CTS",
     "icao": "RJCC",
-    "name": "新千歳空港",
+    "name": "New Chitose Airport",
     "lat": 42.7752,
-    "lon": 141.6923,
+    "lon": 141.692001,
     "iso_country": "JP",
     "city": "Sapporo"
   },
-  "OKA": {
-    "iata": "OKA",
-    "icao": "ROAH",
-    "name": "那覇空港",
-    "lat": 26.1958,
-    "lon": 127.6469,
+  "HKD": {
+    "iata": "HKD",
+    "icao": "RJCH",
+    "name": "Hakodate Airport",
+    "lat": 41.77,
+    "lon": 140.822006,
     "iso_country": "JP",
-    "city": "Naha"
+    "city": "Hakodate"
   },
-  "SDJ": {
-    "iata": "SDJ",
-    "icao": "RJSS",
-    "name": "仙台空港",
-    "lat": 38.1397,
-    "lon": 140.9167,
+  "KUH": {
+    "iata": "KUH",
+    "icao": "RJCK",
+    "name": "Kushiro Airport",
+    "lat": 43.041,
+    "lon": 144.192993,
     "iso_country": "JP",
-    "city": "Sendai"
+    "city": "Kushiro"
+  },
+  "MMB": {
+    "iata": "MMB",
+    "icao": "RJCM",
+    "name": "Memanbetsu Airport",
+    "lat": 43.8805999756,
+    "lon": 144.164001465,
+    "iso_country": "JP",
+    "city": "Ōzora"
+  },
+  "SHB": {
+    "iata": "SHB",
+    "icao": "RJCN",
+    "name": "Nakashibetsu Airport",
+    "lat": 43.5774993896,
+    "lon": 144.960006714,
+    "iso_country": "JP",
+    "city": "Nakashibetsu"
+  },
+  "OKD": {
+    "iata": "OKD",
+    "icao": "RJCO",
+    "name": "Sapporo Okadama Airport",
+    "lat": 43.117447,
+    "lon": 141.38134,
+    "iso_country": "JP",
+    "city": "Sapporo"
+  },
+  "RBJ": {
+    "iata": "RBJ",
+    "icao": "RJCR",
+    "name": "Rebun Airport",
+    "lat": 45.4550018311,
+    "lon": 141.039001465,
+    "iso_country": "JP",
+    "city": "Rebun"
+  },
+  "WKJ": {
+    "iata": "WKJ",
+    "icao": "RJCW",
+    "name": "Wakkanai Airport",
+    "lat": 45.4042015076,
+    "lon": 141.800994873,
+    "iso_country": "JP",
+    "city": "Wakkanai"
+  },
+  "AXJ": {
+    "iata": "AXJ",
+    "icao": "RJDA",
+    "name": "Amakusa Airport",
+    "lat": 32.482498,
+    "lon": 130.158997,
+    "iso_country": "JP",
+    "city": "Amakusa"
+  },
+  "IKI": {
+    "iata": "IKI",
+    "icao": "RJDB",
+    "name": "Iki Airport",
+    "lat": 33.7490005493,
+    "lon": 129.785003662,
+    "iso_country": "JP",
+    "city": "Iki"
+  },
+  "UBJ": {
+    "iata": "UBJ",
+    "icao": "RJDC",
+    "name": "Yamaguchi Ube Airport",
+    "lat": 33.930000305200004,
+    "lon": 131.279006958,
+    "iso_country": "JP",
+    "city": "Ube"
+  },
+  "TSJ": {
+    "iata": "TSJ",
+    "icao": "RJDT",
+    "name": "Tsushima Airport",
+    "lat": 34.2849006653,
+    "lon": 129.330993652,
+    "iso_country": "JP",
+    "city": "Tsushima"
+  },
+  "OMJ": {
+    "iata": "OMJ",
+    "icao": "RJDU",
+    "name": "JMSDF Omura Air Base",
+    "lat": 32.928046,
+    "lon": 129.934168,
+    "iso_country": "JP",
+    "city": "Nagasaki"
+  },
+  "MBE": {
+    "iata": "MBE",
+    "icao": "RJEB",
+    "name": "Monbetsu Airport",
+    "lat": 44.303901672399995,
+    "lon": 143.404006958,
+    "iso_country": "JP",
+    "city": "Monbetsu"
+  },
+  "AKJ": {
+    "iata": "AKJ",
+    "icao": "RJEC",
+    "name": "Asahikawa Airport",
+    "lat": 43.670799,
+    "lon": 142.447006,
+    "iso_country": "JP",
+    "city": "Higashikagura"
+  },
+  "OIR": {
+    "iata": "OIR",
+    "icao": "RJEO",
+    "name": "Okushiri Airport",
+    "lat": 42.0717010498,
+    "lon": 139.432998657,
+    "iso_country": "JP",
+    "city": "Okushiri Island"
+  },
+  "RIS": {
+    "iata": "RIS",
+    "icao": "RJER",
+    "name": "Rishiri Airport",
+    "lat": 45.2420005798,
+    "lon": 141.186004639,
+    "iso_country": "JP",
+    "city": "Rishiri"
+  },
+  "KUM": {
+    "iata": "KUM",
+    "icao": "RJFC",
+    "name": "Yakushima Airport",
+    "lat": 30.385599,
+    "lon": 130.658997,
+    "iso_country": "JP",
+    "city": "Yakushima"
+  },
+  "FUJ": {
+    "iata": "FUJ",
+    "icao": "RJFE",
+    "name": "Fukue Airport",
+    "lat": 32.666302,
+    "lon": 128.832993,
+    "iso_country": "JP",
+    "city": "Goto"
+  },
+  "FUK": {
+    "iata": "FUK",
+    "icao": "RJFF",
+    "name": "Fukuoka Airport",
+    "lat": 33.585899353027344,
+    "lon": 130.4510040283203,
+    "iso_country": "JP",
+    "city": "Fukuoka"
+  },
+  "TNE": {
+    "iata": "TNE",
+    "icao": "RJFG",
+    "name": "New Tanegashima Airport",
+    "lat": 30.605100631699997,
+    "lon": 130.990997314,
+    "iso_country": "JP",
+    "city": "Tanegashima"
+  },
+  "KOJ": {
+    "iata": "KOJ",
+    "icao": "RJFK",
+    "name": "Kagoshima Airport",
+    "lat": 31.8034,
+    "lon": 130.718994,
+    "iso_country": "JP",
+    "city": "Kagoshima"
+  },
+  "KMI": {
+    "iata": "KMI",
+    "icao": "RJFM",
+    "name": "Miyazaki Airport",
+    "lat": 31.877199173,
+    "lon": 131.449005127,
+    "iso_country": "JP",
+    "city": "Miyazaki"
+  },
+  "OIT": {
+    "iata": "OIT",
+    "icao": "RJFO",
+    "name": "Oita Airport",
+    "lat": 33.479400634799994,
+    "lon": 131.736999512,
+    "iso_country": "JP",
+    "city": "Oita"
+  },
+  "KKJ": {
+    "iata": "KKJ",
+    "icao": "RJFR",
+    "name": "Kitakyushu Airport",
+    "lat": 33.845901,
+    "lon": 131.035004,
+    "iso_country": "JP",
+    "city": "Kitakyushu"
+  },
+  "HSG": {
+    "iata": "HSG",
+    "icao": "RJFS",
+    "name": "Saga Airport",
+    "lat": 33.149700164799995,
+    "lon": 130.302001953,
+    "iso_country": "JP",
+    "city": "Saga"
   },
   "KMJ": {
     "iata": "KMJ",
     "icao": "RJFT",
-    "name": "熊本空港",
-    "lat": 32.8373,
-    "lon": 130.8550,
+    "name": "Kumamoto Airport",
+    "lat": 32.83729934692383,
+    "lon": 130.85499572753906,
     "iso_country": "JP",
     "city": "Kumamoto"
   },
+  "NGS": {
+    "iata": "NGS",
+    "icao": "RJFU",
+    "name": "Nagasaki Airport",
+    "lat": 32.916901,
+    "lon": 129.914001,
+    "iso_country": "JP",
+    "city": "Nagasaki"
+  },
+  "NGO": {
+    "iata": "NGO",
+    "icao": "RJGG",
+    "name": "Chubu Centrair International Airport",
+    "lat": 34.858398,
+    "lon": 136.804993,
+    "iso_country": "JP",
+    "city": "Tokoname"
+  },
+  "ASJ": {
+    "iata": "ASJ",
+    "icao": "RJKA",
+    "name": "Amami Airport",
+    "lat": 28.430599212646484,
+    "lon": 129.71299743652344,
+    "iso_country": "JP",
+    "city": "Amami"
+  },
+  "OKE": {
+    "iata": "OKE",
+    "icao": "RJKB",
+    "name": "Okinoerabu Airport",
+    "lat": 27.431604,
+    "lon": 128.705564,
+    "iso_country": "JP",
+    "city": "Wadomari"
+  },
+  "KKX": {
+    "iata": "KKX",
+    "icao": "RJKI",
+    "name": "Kikai Airport",
+    "lat": 28.321300506599997,
+    "lon": 129.927993774,
+    "iso_country": "JP",
+    "city": "Kikai"
+  },
+  "TKN": {
+    "iata": "TKN",
+    "icao": "RJKN",
+    "name": "Tokunoshima Airport",
+    "lat": 27.836382,
+    "lon": 128.881356,
+    "iso_country": "JP",
+    "city": "Amagi"
+  },
+  "NKM": {
+    "iata": "NKM",
+    "icao": "RJNA",
+    "name": "Nagoya Airport / JASDF Komaki Air Base",
+    "lat": 35.255759,
+    "lon": 136.924095,
+    "iso_country": "JP",
+    "city": "Nagoya"
+  },
+  "FKJ": {
+    "iata": "FKJ",
+    "icao": "RJNF",
+    "name": "Fukui Airport",
+    "lat": 36.142799,
+    "lon": 136.223999,
+    "iso_country": "JP",
+    "city": "Fukui"
+  },
+  "QGU": {
+    "iata": "QGU",
+    "icao": "RJNG",
+    "name": "Gifu Airport",
+    "lat": 35.3941,
+    "lon": 136.869995,
+    "iso_country": "JP",
+    "city": "Gifu"
+  },
+  "KMQ": {
+    "iata": "KMQ",
+    "icao": "RJNK",
+    "name": "Komatsu Airport / JASDF Komatsu Air Base",
+    "lat": 36.3946,
+    "lon": 136.406998,
+    "iso_country": "JP",
+    "city": "Kanazawa"
+  },
+  "OKI": {
+    "iata": "OKI",
+    "icao": "RJNO",
+    "name": "Oki Global Geopark Airport",
+    "lat": 36.178388,
+    "lon": 133.323566,
+    "iso_country": "JP",
+    "city": "Okinoshima"
+  },
+  "FSZ": {
+    "iata": "FSZ",
+    "icao": "RJNS",
+    "name": "Mount Fuji Shizuoka Airport",
+    "lat": 34.796043,
+    "lon": 138.187752,
+    "iso_country": "JP",
+    "city": "Makinohara / Shimada"
+  },
+  "TOY": {
+    "iata": "TOY",
+    "icao": "RJNT",
+    "name": "Toyama Airport",
+    "lat": 36.64830017089844,
+    "lon": 137.18800354003906,
+    "iso_country": "JP",
+    "city": "Toyama"
+  },
+  "NTQ": {
+    "iata": "NTQ",
+    "icao": "RJNW",
+    "name": "Noto Satoyama Airport",
+    "lat": 37.293098,
+    "lon": 136.962006,
+    "iso_country": "JP",
+    "city": "Wajima"
+  },
+  "HIJ": {
+    "iata": "HIJ",
+    "icao": "RJOA",
+    "name": "Hiroshima Airport",
+    "lat": 34.4361,
+    "lon": 132.919006,
+    "iso_country": "JP",
+    "city": "Hiroshima"
+  },
+  "OKJ": {
+    "iata": "OKJ",
+    "icao": "RJOB",
+    "name": "Okayama Momotaro Airport",
+    "lat": 34.756901,
+    "lon": 133.854996,
+    "iso_country": "JP",
+    "city": "Okayama"
+  },
+  "IZO": {
+    "iata": "IZO",
+    "icao": "RJOC",
+    "name": "Izumo Enmusubi Airport",
+    "lat": 35.413601,
+    "lon": 132.889999,
+    "iso_country": "JP",
+    "city": "Izumo"
+  },
+  "YGJ": {
+    "iata": "YGJ",
+    "icao": "RJOH",
+    "name": "Yonago Kitaro Airport / JASDF Miho Air Base",
+    "lat": 35.492199,
+    "lon": 133.235992,
+    "iso_country": "JP",
+    "city": "Yonago"
+  },
+  "IWK": {
+    "iata": "IWK",
+    "icao": "RJOI",
+    "name": "Iwakuni Kintaikyo Airport / Marine Corps Air Station Iwakuni",
+    "lat": 34.146333,
+    "lon": 132.247238,
+    "iso_country": "JP",
+    "city": "Iwakuni"
+  },
+  "KCZ": {
+    "iata": "KCZ",
+    "icao": "RJOK",
+    "name": "Kochi Ryoma Airport",
+    "lat": 33.546101,
+    "lon": 133.669006,
+    "iso_country": "JP",
+    "city": "Nankoku"
+  },
   "MYJ": {
     "iata": "MYJ",
-    "icao": "RJFM",
-    "name": "宮古空港",
-    "lat": 24.7828,
-    "lon": 125.2956,
+    "icao": "RJOM",
+    "name": "Matsuyama Airport",
+    "lat": 33.82720184326172,
+    "lon": 132.6999969482422,
     "iso_country": "JP",
-    "city": "Miyakojima"
+    "city": "Matsuyama"
+  },
+  "ITM": {
+    "iata": "ITM",
+    "icao": "RJOO",
+    "name": "Osaka International Airport",
+    "lat": 34.7855,
+    "lon": 135.438004,
+    "iso_country": "JP",
+    "city": "Osaka"
+  },
+  "TTJ": {
+    "iata": "TTJ",
+    "icao": "RJOR",
+    "name": "Tottori Sand Dunes Conan Airport",
+    "lat": 35.530102,
+    "lon": 134.167007,
+    "iso_country": "JP",
+    "city": "Tottori"
+  },
+  "TKS": {
+    "iata": "TKS",
+    "icao": "RJOS",
+    "name": "Tokushima Awaodori Airport / JMSDF Tokushima Air Base",
+    "lat": 34.132801,
+    "lon": 134.606995,
+    "iso_country": "JP",
+    "city": "Tokushima"
+  },
+  "TAK": {
+    "iata": "TAK",
+    "icao": "RJOT",
+    "name": "Takamatsu Airport",
+    "lat": 34.214199066199996,
+    "lon": 134.01600647,
+    "iso_country": "JP",
+    "city": "Takamatsu"
+  },
+  "IWJ": {
+    "iata": "IWJ",
+    "icao": "RJOW",
+    "name": "Iwami Airport",
+    "lat": 34.676399231,
+    "lon": 131.789993286,
+    "iso_country": "JP",
+    "city": "Masuda"
+  },
+  "AOJ": {
+    "iata": "AOJ",
+    "icao": "RJSA",
+    "name": "Aomori Airport",
+    "lat": 40.73469924926758,
+    "lon": 140.6909942626953,
+    "iso_country": "JP",
+    "city": "Aomori"
+  },
+  "GAJ": {
+    "iata": "GAJ",
+    "icao": "RJSC",
+    "name": "Yamagata Airport",
+    "lat": 38.4119,
+    "lon": 140.371002,
+    "iso_country": "JP",
+    "city": "Higashine"
+  },
+  "SDS": {
+    "iata": "SDS",
+    "icao": "RJSD",
+    "name": "Sado Airport",
+    "lat": 38.0601997375,
+    "lon": 138.414001465,
+    "iso_country": "JP",
+    "city": "Sado"
+  },
+  "FKS": {
+    "iata": "FKS",
+    "icao": "RJSF",
+    "name": "Fukushima Airport",
+    "lat": 37.22740173339844,
+    "lon": 140.43099975585938,
+    "iso_country": "JP",
+    "city": "Sukagawa"
+  },
+  "HHE": {
+    "iata": "HHE",
+    "icao": "RJSH",
+    "name": "JMSDF Hachinohe Air Base / Hachinohe Airport",
+    "lat": 40.551181,
+    "lon": 141.465428,
+    "iso_country": "JP",
+    "city": "Hachinohe"
+  },
+  "HNA": {
+    "iata": "HNA",
+    "icao": "RJSI",
+    "name": "Iwate Hanamaki Airport",
+    "lat": 39.4286,
+    "lon": 141.134995,
+    "iso_country": "JP",
+    "city": "Hanamaki"
+  },
+  "AXT": {
+    "iata": "AXT",
+    "icao": "RJSK",
+    "name": "Akita Airport",
+    "lat": 39.615601,
+    "lon": 140.218994,
+    "iso_country": "JP",
+    "city": "Akita"
+  },
+  "MSJ": {
+    "iata": "MSJ",
+    "icao": "RJSM",
+    "name": "Misawa Airport / Misawa Air Base",
+    "lat": 40.703201,
+    "lon": 141.367996,
+    "iso_country": "JP",
+    "city": "Misawa"
+  },
+  "KIJ": {
+    "iata": "KIJ",
+    "icao": "RJSN",
+    "name": "Niigata Airport",
+    "lat": 37.9558982849,
+    "lon": 139.121002197,
+    "iso_country": "JP",
+    "city": "Niigata"
+  },
+  "ONJ": {
+    "iata": "ONJ",
+    "icao": "RJSR",
+    "name": "Odate Noshiro Airport",
+    "lat": 40.191898,
+    "lon": 140.371002,
+    "iso_country": "JP",
+    "city": "Kitaakita"
+  },
+  "SDJ": {
+    "iata": "SDJ",
+    "icao": "RJSS",
+    "name": "Sendai Airport",
+    "lat": 38.139702,
+    "lon": 140.917007,
+    "iso_country": "JP",
+    "city": "Natori"
+  },
+  "SYO": {
+    "iata": "SYO",
+    "icao": "RJSY",
+    "name": "Shonai Airport",
+    "lat": 38.812199,
+    "lon": 139.787003,
+    "iso_country": "JP",
+    "city": "Shonai"
+  },
+  "NJA": {
+    "iata": "NJA",
+    "icao": "RJTA",
+    "name": "JMSDF Atsugi Air Base / Naval Air Facility Atsugi",
+    "lat": 35.454601,
+    "lon": 139.449997,
+    "iso_country": "JP",
+    "city": "Ayase / Yamato"
+  },
+  "HAC": {
+    "iata": "HAC",
+    "icao": "RJTH",
+    "name": "Hachijojima Airport",
+    "lat": 33.115002,
+    "lon": 139.785995,
+    "iso_country": "JP",
+    "city": "Hachijojima"
+  },
+  "OIM": {
+    "iata": "OIM",
+    "icao": "RJTO",
+    "name": "Oshima Airport",
+    "lat": 34.782001495399996,
+    "lon": 139.36000061,
+    "iso_country": "JP",
+    "city": "Izu Oshima"
+  },
+  "MYE": {
+    "iata": "MYE",
+    "icao": "RJTQ",
+    "name": "Miyakejima Airport",
+    "lat": 34.073600769,
+    "lon": 139.559997559,
+    "iso_country": "JP",
+    "city": "Miyakejima"
+  },
+  "HND": {
+    "iata": "HND",
+    "icao": "RJTT",
+    "name": "Tokyo Haneda International Airport",
+    "lat": 35.552299,
+    "lon": 139.779999,
+    "iso_country": "JP",
+    "city": "Tokyo"
+  },
+  "OKO": {
+    "iata": "OKO",
+    "icao": "RJTY",
+    "name": "Yokota Air Base",
+    "lat": 35.748501,
+    "lon": 139.348007,
+    "iso_country": "JP",
+    "city": "Fussa"
+  },
+  "OKA": {
+    "iata": "OKA",
+    "icao": "ROAH",
+    "name": "Naha Airport / JASDF Naha Air Base",
+    "lat": 26.195801,
+    "lon": 127.646004,
+    "iso_country": "JP",
+    "city": "Naha"
+  },
+  "DNA": {
+    "iata": "DNA",
+    "icao": "RODN",
+    "name": "Kadena Air Base",
+    "lat": 26.351667,
+    "lon": 127.769444,
+    "iso_country": "JP",
+    "city": "Okinawa"
   },
   "ISG": {
     "iata": "ISG",
     "icao": "ROIG",
-    "name": "石垣空港",
-    "lat": 24.3964,
-    "lon": 124.2450,
+    "name": "New Ishigaki Airport",
+    "lat": 24.396389,
+    "lon": 124.245,
     "iso_country": "JP",
     "city": "Ishigaki"
+  },
+  "UEO": {
+    "iata": "UEO",
+    "icao": "ROKJ",
+    "name": "Kumejima Airport",
+    "lat": 26.363445,
+    "lon": 126.71384,
+    "iso_country": "JP",
+    "city": "Kumejima"
+  },
+  "KJP": {
+    "iata": "KJP",
+    "icao": "ROKR",
+    "name": "Kerama Airport",
+    "lat": 26.168337,
+    "lon": 127.293423,
+    "iso_country": "JP",
+    "city": "Zamami"
+  },
+  "MMD": {
+    "iata": "MMD",
+    "icao": "ROMD",
+    "name": "Minamidaito Airport",
+    "lat": 25.8465,
+    "lon": 131.263,
+    "iso_country": "JP",
+    "city": "Minamidaito"
+  },
+  "MMY": {
+    "iata": "MMY",
+    "icao": "ROMY",
+    "name": "Miyako Airport",
+    "lat": 24.782801,
+    "lon": 125.294998,
+    "iso_country": "JP",
+    "city": "Miyakojima"
+  },
+  "AGJ": {
+    "iata": "AGJ",
+    "icao": "RORA",
+    "name": "Aguni Airport",
+    "lat": 26.592755,
+    "lon": 127.240335,
+    "iso_country": "JP",
+    "city": "Aguni"
+  },
+  "IEJ": {
+    "iata": "IEJ",
+    "icao": "RORE",
+    "name": "Iejima Airport",
+    "lat": 26.722537,
+    "lon": 127.786801,
+    "iso_country": "JP",
+    "city": "Ie"
+  },
+  "HTR": {
+    "iata": "HTR",
+    "icao": "RORH",
+    "name": "Hateruma Airport",
+    "lat": 24.059751,
+    "lon": 123.80558,
+    "iso_country": "JP",
+    "city": "Taketomi"
+  },
+  "KTD": {
+    "iata": "KTD",
+    "icao": "RORK",
+    "name": "Kitadaito Airport",
+    "lat": 25.9447002411,
+    "lon": 131.32699585,
+    "iso_country": "JP",
+    "city": "Kitadaitōjima"
+  },
+  "SHI": {
+    "iata": "SHI",
+    "icao": "RORS",
+    "name": "Shimojishima Airport",
+    "lat": 24.8267,
+    "lon": 125.144997,
+    "iso_country": "JP",
+    "city": "Miyakojima"
+  },
+  "TRA": {
+    "iata": "TRA",
+    "icao": "RORT",
+    "name": "Tarama Airport",
+    "lat": 24.653793,
+    "lon": 124.675453,
+    "iso_country": "JP",
+    "city": "Tarama"
+  },
+  "RNJ": {
+    "iata": "RNJ",
+    "icao": "RORY",
+    "name": "Yoron Airport",
+    "lat": 27.043847,
+    "lon": 128.401648,
+    "iso_country": "JP",
+    "city": "Yoron"
+  },
+  "OGN": {
+    "iata": "OGN",
+    "icao": "ROYN",
+    "name": "Yonaguni Airport",
+    "lat": 24.467298,
+    "lon": 122.979827,
+    "iso_country": "JP",
+    "city": "Yonaguni"
   },
   "SIN": {
     "iata": "SIN",

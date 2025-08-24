@@ -42,18 +42,21 @@ const OPENFLIGHTS_ROUTES_URL = 'https://raw.githubusercontent.com/jpatokal/openf
 const AIRPORTS_DIR = path.join(process.cwd(), 'public/data/airports');
 const TODAY = new Date().toISOString().split('T')[0];
 
-// 日本の空港IATAコード（国内・国際問わず）
-const JAPANESE_AIRPORTS = new Set([
-  'HND', 'NRT', 'KIX', 'ITM', 'NGO', 'FUK', 'KKJ', 'UBJ', 'CTS', 'OKA', 
-  'SDJ', 'KMJ', 'MYJ', 'ISG', 'MMJ', 'IBR', 'SHM', 'UKB', 'TJH', 'OBO',
-  'HKD', 'KUH', 'MMB', 'SHB', 'OKD', 'RBJ', 'WKJ', 'AXJ', 'IKI', 'TSJ',
-  'MBE', 'AKJ', 'OIR', 'RIS', 'KUM', 'FUJ', 'TNE', 'KOJ', 'KMI', 'OIT',
-  'HSG', 'NGS', 'ASJ', 'OKE', 'KKX', 'TKN', 'NKM', 'FKJ', 'QGU', 'KMQ',
-  'OKI', 'FSZ', 'TOY', 'NTQ', 'HIJ', 'OKJ', 'IZO', 'YGJ', 'IWK', 'KCZ',
-  'TTJ', 'TKS', 'TAK', 'IWJ', 'AOJ', 'GAJ', 'SDS', 'FKS', 'HHE', 'HNA',
-  'AXT', 'MSJ', 'KIJ', 'ONJ', 'SYO', 'HAC', 'OIM', 'MYE', 'DNA', 'UEO',
-  'KJP', 'MMD', 'MMY', 'AGJ', 'IEJ', 'HTR', 'KTD', 'SHI', 'TRA', 'RNJ', 'OGN'
-]);
+// 対象地域の空港（アジア太平洋＋北米）
+const TARGET_AIRPORTS_AUTO = (() => {
+  // airports.jsonから動的に取得する場合の実装
+  // 現在は主要空港を静的に定義
+  return new Set([
+    // 日本主要空港
+    'HND', 'NRT', 'KIX', 'ITM', 'NGO', 'FUK', 'KKJ', 'UBJ', 'CTS', 'OKA',
+    // アジア主要空港
+    'ICN', 'GMP', 'PUS', 'SIN', 'KUL', 'BKK', 'DMK', 'MNL', 'HKG', 'TPE',
+    'HAN', 'SGN', 'CGK', 'DPS', 'SYD', 'MEL', 'BNE', 'PER', 'AKL', 'CHC',
+    // 北米主要空港
+    'LAX', 'SFO', 'SEA', 'DEN', 'ORD', 'ATL', 'JFK', 'LGA', 'EWR', 'DFW',
+    'MIA', 'BOS', 'YVR', 'YYZ', 'YUL'
+  ]);
+})();
 
 // 主要航空会社のマッピング（IATA/ICAOから統一コードへ）
 const AIRLINE_MAPPING: Record<string, string> = {
@@ -137,16 +140,16 @@ class OpenFlightsBootstrap {
     }
   }
 
-  private filterJapaneseRoutes(routes: OpenFlightsRoute[]): OpenFlightsRoute[] {
-    console.log('🇯🇵 日本関連ルートを抽出中...');
+  private filterTargetRoutes(routes: OpenFlightsRoute[]): OpenFlightsRoute[] {
+    console.log('🌏 対象地域関連ルートを抽出中...');
     
-    const japaneseRoutes = routes.filter(route => 
-      JAPANESE_AIRPORTS.has(route.source_airport) || 
-      JAPANESE_AIRPORTS.has(route.destination_airport)
+    const targetRoutes = routes.filter(route => 
+      TARGET_AIRPORTS_AUTO.has(route.source_airport) || 
+      TARGET_AIRPORTS_AUTO.has(route.destination_airport)
     );
 
-    console.log(`✅ ${japaneseRoutes.length} 件の日本関連ルートを抽出`);
-    return japaneseRoutes;
+    console.log(`✅ ${targetRoutes.length} 件の対象地域関連ルートを抽出`);
+    return targetRoutes;
   }
 
   private async loadExistingAirportFile(iata: string): Promise<AirportFile | null> {
@@ -178,8 +181,8 @@ class OpenFlightsBootstrap {
       const destAirport = route.destination_airport;
       const airline = AIRLINE_MAPPING[route.airline] || route.airline;
 
-      // 日本の空港発のルートのみ処理
-      if (!JAPANESE_AIRPORTS.has(sourceAirport)) {
+      // 対象地域の空港発のルートのみ処理
+      if (!TARGET_AIRPORTS_AUTO.has(sourceAirport)) {
         continue;
       }
 
@@ -194,10 +197,28 @@ class OpenFlightsBootstrap {
         airportRoutes.set(airline, []);
       }
 
+      // 国内線判定：同一国内の場合は国内線
+      const isInternational = (() => {
+        // 簡易的な国内線判定（必要に応じて拡充）
+        const domesticPairs = [
+          ['JP', ['HND', 'NRT', 'KIX', 'ITM', 'NGO', 'FUK', 'KKJ', 'CTS', 'OKA']],
+          ['US', ['LAX', 'SFO', 'SEA', 'DEN', 'ORD', 'ATL', 'JFK', 'LGA', 'EWR', 'DFW']],
+          ['AU', ['SYD', 'MEL', 'BNE', 'PER']],
+          ['KR', ['ICN', 'GMP', 'PUS']]
+        ];
+        
+        for (const [country, airports] of domesticPairs) {
+          if (airports.includes(sourceAirport) && airports.includes(destAirport)) {
+            return false; // 国内線
+          }
+        }
+        return true; // 国際線
+      })();
+      
       const flightchordRoute: FlightChordRoute = {
         iata: destAirport,
         freq_per_day: null, // OpenFlightsには便数情報なし
-        intl: !JAPANESE_AIRPORTS.has(destAirport), // 日本の空港以外は国際線
+        intl: isInternational,
         sources: [
           {
             title: 'OpenFlights Route Database',
@@ -263,23 +284,23 @@ class OpenFlightsBootstrap {
     console.log(`   更新空港: ${routesByAirport.size} 空港`);
   }
 
-  private generateReport(routes: OpenFlightsRoute[], japaneseRoutes: OpenFlightsRoute[]): void {
+  private generateReport(routes: OpenFlightsRoute[], targetRoutes: OpenFlightsRoute[]): void {
     const reportPath = path.join(process.cwd(), 'docs/openflights-bootstrap-report.md');
     const now = new Date().toISOString().split('T')[0];
     
     let report = `# OpenFlights ブートストラップレポート - ${now}\n\n`;
     
     report += `## 概要\n\n`;
-    report += `OpenFlightsの歴史的ルートデータ（2014年6月まで）を使用して、FlightChordの初期路線網をブートストラップしました。\n\n`;
+    report += `OpenFlightsの歴史的ルートデータ（2014年6月まで）を使用して、FlightChordのグローバル路線網をブートストラップしました。\n\n`;
     
     report += `## データ統計\n\n`;
     report += `- **全ルート数**: ${routes.length.toLocaleString()} 件\n`;
-    report += `- **日本関連ルート**: ${japaneseRoutes.length.toLocaleString()} 件\n`;
-    report += `- **ブートストラップ率**: ${((japaneseRoutes.length / routes.length) * 100).toFixed(2)}%\n\n`;
+    report += `- **対象地域関連ルート**: ${targetRoutes.length.toLocaleString()} 件\n`;
+    report += `- **ブートストラップ率**: ${((targetRoutes.length / routes.length) * 100).toFixed(2)}%\n\n`;
 
     // 航空会社別統計
     const airlineStats = new Map<string, number>();
-    for (const route of japaneseRoutes) {
+    for (const route of targetRoutes) {
       const airline = AIRLINE_MAPPING[route.airline] || route.airline;
       airlineStats.set(airline, (airlineStats.get(airline) || 0) + 1);
     }
@@ -323,13 +344,13 @@ class OpenFlightsBootstrap {
       // OpenFlightsルートデータをダウンロード
       const routesData = await this.downloadRoutes();
       const routes = this.parseRoutes(routesData);
-      const japaneseRoutes = this.filterJapaneseRoutes(routes);
+      const targetRoutes = this.filterTargetRoutes(routes);
 
       // ルートをブートストラップ
-      await this.bootstrapRoutes(japaneseRoutes);
+      await this.bootstrapRoutes(targetRoutes);
 
       // レポート生成
-      this.generateReport(routes, japaneseRoutes);
+      this.generateReport(routes, targetRoutes);
 
       console.log('\n🎉 OpenFlights ブートストラップ完了！');
       console.log('\n📝 次のステップ:');

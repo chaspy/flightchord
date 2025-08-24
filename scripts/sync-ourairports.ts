@@ -87,18 +87,33 @@ class OurAirportsSync {
     }
   }
 
-  private filterJapaneseAirports(records: OurAirportsRecord[]): OurAirportsRecord[] {
-    console.log('🇯🇵 日本の空港を抽出中...');
+  private filterTargetAirports(records: OurAirportsRecord[]): OurAirportsRecord[] {
+    console.log('🌏 対象国の空港を抽出中...');
     
-    const japaneseAirports = records.filter(record => 
-      record.iso_country === 'JP' && 
+    // 対象国リスト（段階的に拡大可能）
+    const TARGET_COUNTRIES = [
+      'JP', // 日本（既存）
+      'US', // アメリカ
+      'KR', // 韓国  
+      'SG', // シンガポール
+      'TW', // 台湾
+      'HK', // 香港
+      'AU', // オーストラリア
+      'TH', // タイ
+      'MY', // マレーシア
+      'PH', // フィリピン
+      'VN', // ベトナム
+    ];
+    
+    const targetAirports = records.filter(record => 
+      TARGET_COUNTRIES.includes(record.iso_country) && 
       record.iata_code && 
       record.iata_code.length === 3 &&
-      ['large_airport', 'medium_airport', 'small_airport'].includes(record.type)
+      ['large_airport', 'medium_airport'].includes(record.type) // 主要空港のみ
     );
 
-    console.log(`✅ ${japaneseAirports.length} 件の日本の空港を抽出`);
-    return japaneseAirports;
+    console.log(`✅ ${targetAirports.length} 件の対象空港を抽出`);
+    return targetAirports;
   }
 
   private convertToFlightChordFormat(records: OurAirportsRecord[]): Record<string, FlightChordAirport> {
@@ -255,8 +270,8 @@ class OurAirportsSync {
       // OurAirportsからデータ取得
       const csvData = await this.downloadCSV();
       const records = this.parseCSV(csvData);
-      const japaneseAirports = this.filterJapaneseAirports(records);
-      const newAirports = this.convertToFlightChordFormat(japaneseAirports);
+      const targetAirports = this.filterTargetAirports(records);
+      const newAirports = this.convertToFlightChordFormat(targetAirports);
 
       // 既存データとの統合
       const mergedAirports = this.mergeWithExistingData(newAirports, existingAirports);

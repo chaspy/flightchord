@@ -1,1266 +1,18 @@
 {
-  "airport": "SIN",
+  "airport": "BKK",
   "updatedAt": "2025-08-24",
+  "source": [
+    {
+      "url": "https://openflights.org/data.php",
+      "lastChecked": "2025-08-24",
+      "description": "OpenFlights Route Database (Historical)"
+    }
+  ],
   "carriers": {
-    "SQ": {
-      "destinations": [
-        {
-          "iata": "HND",
-          "freq_per_day": 3,
-          "intl": true,
-          "sources": [
-            {
-              "title": "シンガポール航空公式時刻表",
-              "url": "https://www.singaporeair.com/ja_JP/jp/plan-travel/timetables/"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "NRT",
-          "freq_per_day": 2,
-          "intl": true,
-          "sources": [
-            {
-              "title": "シンガポール航空公式時刻表",
-              "url": "https://www.singaporeair.com/ja_JP/jp/plan-travel/timetables/"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "KIX",
-          "freq_per_day": 1,
-          "intl": true,
-          "sources": [
-            {
-              "title": "シンガポール航空公式時刻表",
-              "url": "https://www.singaporeair.com/ja_JP/jp/plan-travel/timetables/"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "FUK",
-          "freq_per_day": 1,
-          "intl": true,
-          "sources": [
-            {
-              "title": "シンガポール航空公式時刻表",
-              "url": "https://www.singaporeair.com/ja_JP/jp/plan-travel/timetables/"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "LAX",
-          "freq_per_day": 2,
-          "intl": true,
-          "sources": [
-            {
-              "title": "シンガポール航空公式時刻表",
-              "url": "https://www.singaporeair.com/ja_JP/jp/plan-travel/timetables/"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "ICN",
-          "freq_per_day": 3,
-          "intl": true,
-          "sources": [
-            {
-              "title": "シンガポール航空公式時刻表",
-              "url": "https://www.singaporeair.com/ja_JP/jp/plan-travel/timetables/"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "ADL",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "AKL",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "AMD",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "AMS",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "BCN",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "BDO",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "BKI",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "BKK",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "BLR",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "BNE",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "BOM",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "BPN",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "BWN",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "CAN",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "CCU",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "CDG",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "CEB",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "CGK",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "CHC",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "CJB",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "CKG",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "CMB",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "CNX",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "COK",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "CPH",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "CSX",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "CTU",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "DAC",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "DAD",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "DEL",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "DME",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "DPS",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "DRW",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "DVO",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "DXB",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "FCO",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "FRA",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "HAN",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "HKG",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "HKT",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "HYD",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "IST",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "JNB",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "JOG",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "KCH",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "KMG",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "KTM",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "KUL",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "LGK",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "LHR",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "LOP",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "MAA",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "MDC",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "MEL",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "MLE",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "MNL",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "MUC",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "MXP",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "NGO",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "PEK",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "PEN",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "PER",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "PKU",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "PLM",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "PNH",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "PVG",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "REP",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "RGN",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "RUH",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "SGN",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "SOC",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "SRG",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "SUB",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "SYD",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "SZX",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "TPE",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "TRV",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "UPG",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "USM",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "VTZ",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "WUH",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "XMN",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "ZRH",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        }
-      ]
-    },
-    "NH": {
-      "destinations": [
-        {
-          "iata": "HND",
-          "freq_per_day": 3,
-          "intl": true,
-          "sources": [
-            {
-              "title": "ANA公式時刻表",
-              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "NRT",
-          "freq_per_day": 4,
-          "intl": true,
-          "sources": [
-            {
-              "title": "ANA公式時刻表",
-              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "KIX",
-          "freq_per_day": 2,
-          "intl": true,
-          "sources": [
-            {
-              "title": "ANA公式時刻表",
-              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "FUK",
-          "freq_per_day": 1,
-          "intl": true,
-          "sources": [
-            {
-              "title": "ANA公式時刻表",
-              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "NGO",
-          "freq_per_day": 1,
-          "intl": true,
-          "sources": [
-            {
-              "title": "ANA公式時刻表",
-              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        }
-      ]
-    },
-    "JL": {
-      "destinations": [
-        {
-          "iata": "NRT",
-          "freq_per_day": 3,
-          "intl": true,
-          "sources": [
-            {
-              "title": "JAL公式時刻表",
-              "url": "https://www.jal.co.jp/jp/ja/jmb/flightschedule/"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "HND",
-          "freq_per_day": 2,
-          "intl": true,
-          "sources": [
-            {
-              "title": "JAL公式時刻表",
-              "url": "https://www.jal.co.jp/jp/ja/jmb/flightschedule/"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        }
-      ]
-    },
-    "KE": {
-      "destinations": [
-        {
-          "iata": "ICN",
-          "freq_per_day": 3,
-          "intl": true,
-          "sources": [
-            {
-              "title": "大韓航空公式時刻表",
-              "url": "https://www.koreanair.com/jp/ja/schedule/"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        }
-      ]
-    },
-    "UA": {
-      "destinations": [
-        {
-          "iata": "LAX",
-          "freq_per_day": 2,
-          "intl": true,
-          "sources": [
-            {
-              "title": "ユナイテッド航空公式時刻表",
-              "url": "https://www.united.com/ja/jp/fly/schedules"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "HKG",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "NRT",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        }
-      ]
-    },
     "3K": {
       "destinations": [
         {
-          "iata": "BKK",
+          "iata": "SIN",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -1270,177 +22,13 @@
             }
           ],
           "lastChecked": "2025-08-24"
-        },
+        }
+      ]
+    },
+    "4H": {
+      "destinations": [
         {
-          "iata": "DRW",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "HAK",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "HGH",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "HKG",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "HKT",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "KUL",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "MNL",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "PEN",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "PER",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "PNH",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "REP",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "RGN",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "SGN",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "SWA",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "TPE",
+          "iata": "DAC",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -1455,42 +43,6 @@
     },
     "5J": {
       "destinations": [
-        {
-          "iata": "CEB",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "CRK",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "ILO",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
         {
           "iata": "MNL",
           "freq_per_day": null,
@@ -1508,7 +60,19 @@
     "6E": {
       "destinations": [
         {
-          "iata": "MAA",
+          "iata": "CCU",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "DEL",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -1521,10 +85,62 @@
         }
       ]
     },
-    "8L": {
+    "7C": {
       "destinations": [
         {
-          "iata": "KWE",
+          "iata": "ICN",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "PUS",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "8B": {
+      "destinations": [
+        {
+          "iata": "CKG",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "HKT",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "ICN",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -1594,18 +210,6 @@
             }
           ],
           "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "MAA",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
         }
       ]
     },
@@ -1640,7 +244,24 @@
     "AB": {
       "destinations": [
         {
-          "iata": "AUH",
+          "iata": "CNX",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        }
+      ]
+    },
+    "AC": {
+      "destinations": [
+        {
+          "iata": "ICN",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -1653,7 +274,7 @@
           "note": "コードシェア"
         },
         {
-          "iata": "BNE",
+          "iata": "NRT",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -1680,13 +301,9 @@
             }
           ],
           "lastChecked": "2025-08-24"
-        }
-      ]
-    },
-    "AI": {
-      "destinations": [
+        },
         {
-          "iata": "BKK",
+          "iata": "CNX",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -1699,7 +316,7 @@
           "note": "コードシェア"
         },
         {
-          "iata": "CCU",
+          "iata": "HKT",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -1710,6 +327,48 @@
           ],
           "lastChecked": "2025-08-24",
           "note": "コードシェア"
+        },
+        {
+          "iata": "KBV",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "LPQ",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        }
+      ]
+    },
+    "AI": {
+      "destinations": [
+        {
+          "iata": "BOM",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
         },
         {
           "iata": "DEL",
@@ -1724,175 +383,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "HKG",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "ICN",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "KUL",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "MAA",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "NRT",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        }
-      ]
-    },
-    "AK": {
-      "destinations": [
-        {
-          "iata": "BKI",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "KBR",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "KCH",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "KUL",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "LGK",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "MYY",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "PEN",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "TGG",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        }
-      ]
-    },
-    "AT": {
-      "destinations": [
-        {
-          "iata": "AUH",
+          "iata": "SIN",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -1934,15 +425,10 @@
               "url": "https://openflights.org/data.php"
             }
           ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        }
-      ]
-    },
-    "BA": {
-      "destinations": [
+          "lastChecked": "2025-08-24"
+        },
         {
-          "iata": "LHR",
+          "iata": "CDG",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -1951,10 +437,41 @@
               "url": "https://openflights.org/data.php"
             }
           ],
-          "lastChecked": "2025-08-24"
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        }
+      ]
+    },
+    "BA": {
+      "destinations": [
+        {
+          "iata": "CNX",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
         },
         {
-          "iata": "SYD",
+          "iata": "HKT",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "LHR",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -2002,7 +519,43 @@
     "BR": {
       "destinations": [
         {
+          "iata": "AMS",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "LHR",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
           "iata": "TPE",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "VIE",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -2017,18 +570,6 @@
     },
     "CA": {
       "destinations": [
-        {
-          "iata": "CTU",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
         {
           "iata": "PEK",
           "freq_per_day": null,
@@ -2059,7 +600,7 @@
     "CI": {
       "destinations": [
         {
-          "iata": "KHH",
+          "iata": "AMS",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -2071,7 +612,19 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "SUB",
+          "iata": "DME",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "KHH",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -2099,18 +652,6 @@
     "CX": {
       "destinations": [
         {
-          "iata": "BKK",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
           "iata": "CMB",
           "freq_per_day": null,
           "intl": true,
@@ -2124,6 +665,43 @@
         },
         {
           "iata": "HKG",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "KBV",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "KHI",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "SIN",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -2151,6 +729,30 @@
           "lastChecked": "2025-08-24"
         },
         {
+          "iata": "CGO",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "CSX",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
           "iata": "FOC",
           "freq_per_day": null,
           "intl": true,
@@ -2160,8 +762,55 @@
               "url": "https://openflights.org/data.php"
             }
           ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "NBO",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "NNG",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "SWA",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "WUH",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
         },
         {
           "iata": "XMN",
@@ -2190,18 +839,6 @@
             }
           ],
           "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "KLO",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
         }
       ]
     },
@@ -2221,46 +858,10 @@
         }
       ]
     },
-    "EK": {
+    "DY": {
       "destinations": [
         {
-          "iata": "BNE",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "DXB",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "MEL",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "PER",
+          "iata": "ARN",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -2273,7 +874,7 @@
           "note": "コードシェア"
         },
         {
-          "iata": "SYD",
+          "iata": "OSL",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -2287,68 +888,8 @@
         }
       ]
     },
-    "ET": {
+    "EK": {
       "destinations": [
-        {
-          "iata": "ADL",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "AKL",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "BKK",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "BNE",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "CHC",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
         {
           "iata": "DXB",
           "freq_per_day": null,
@@ -2359,23 +900,10 @@
               "url": "https://openflights.org/data.php"
             }
           ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "MEL",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "PER",
+          "iata": "HKG",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -2388,6 +916,59 @@
         },
         {
           "iata": "SYD",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "ET": {
+      "destinations": [
+        {
+          "iata": "ADD",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "ICN",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "KUL",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "SIN",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -2415,7 +996,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "BNE",
+          "iata": "CNX",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -2424,14 +1005,11 @@
               "url": "https://openflights.org/data.php"
             }
           ],
-          "lastChecked": "2025-08-24"
-        }
-      ]
-    },
-    "FD": {
-      "destinations": [
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
         {
-          "iata": "DMK",
+          "iata": "HKG",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -2440,7 +1018,8 @@
               "url": "https://openflights.org/data.php"
             }
           ],
-          "lastChecked": "2025-08-24"
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
         },
         {
           "iata": "HKT",
@@ -2452,7 +1031,8 @@
               "url": "https://openflights.org/data.php"
             }
           ],
-          "lastChecked": "2025-08-24"
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
         },
         {
           "iata": "KBV",
@@ -2464,38 +1044,41 @@
               "url": "https://openflights.org/data.php"
             }
           ],
-          "lastChecked": "2025-08-24"
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "LPQ",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "MDL",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
         }
       ]
     },
-    "FY": {
+    "FM": {
       "destinations": [
         {
-          "iata": "IPH",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "KUA",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "SZB",
+          "iata": "PVG",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -2511,43 +1094,6 @@
     "GA": {
       "destinations": [
         {
-          "iata": "BDO",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "BOM",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "BPN",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
           "iata": "CGK",
           "freq_per_day": null,
           "intl": true,
@@ -2558,157 +1104,11 @@
             }
           ],
           "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "DEL",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "DPS",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "IST",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "JOG",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "LOP",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "MAA",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "MDC",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "PKU",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "PLM",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "SOC",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "SRG",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "SUB",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
+        }
+      ]
+    },
+    "GE": {
+      "destinations": [
         {
           "iata": "TPE",
           "freq_per_day": null,
@@ -2719,11 +1119,30 @@
               "url": "https://openflights.org/data.php"
             }
           ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "GF": {
+      "destinations": [
         {
-          "iata": "UPG",
+          "iata": "BAH",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "HO": {
+      "destinations": [
+        {
+          "iata": "PVG",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -2739,7 +1158,35 @@
     "HU": {
       "destinations": [
         {
-          "iata": "HAK",
+          "iata": "NNG",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "PEK",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "HX": {
+      "destinations": [
+        {
+          "iata": "HKG",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -2754,18 +1201,6 @@
     },
     "HY": {
       "destinations": [
-        {
-          "iata": "KUL",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
         {
           "iata": "TAS",
           "freq_per_day": null,
@@ -2794,9 +1229,13 @@
           ],
           "lastChecked": "2025-08-24",
           "note": "コードシェア"
-        },
+        }
+      ]
+    },
+    "JL": {
+      "destinations": [
         {
-          "iata": "SYD",
+          "iata": "CEI",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -2807,13 +1246,48 @@
           ],
           "lastChecked": "2025-08-24",
           "note": "コードシェア"
-        }
-      ]
-    },
-    "IX": {
-      "destinations": [
+        },
         {
-          "iata": "TRZ",
+          "iata": "CNX",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "FUK",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "HKT",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "HND",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -2823,13 +1297,21 @@
             }
           ],
           "lastChecked": "2025-08-24"
-        }
-      ]
-    },
-    "J8": {
-      "destinations": [
+        },
         {
-          "iata": "RDN",
+          "iata": "KIX",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "NRT",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -2845,30 +1327,6 @@
     "JQ": {
       "destinations": [
         {
-          "iata": "AKL",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "DPS",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
           "iata": "MEL",
           "freq_per_day": null,
           "intl": true,
@@ -2882,10 +1340,10 @@
         }
       ]
     },
-    "JT": {
+    "K6": {
       "destinations": [
         {
-          "iata": "CGK",
+          "iata": "PNH",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -2897,7 +1355,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "SGN",
+          "iata": "REP",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -2913,7 +1371,75 @@
     "KB": {
       "destinations": [
         {
-          "iata": "CCU",
+          "iata": "DAC",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "GAU",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "IXB",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "KC": {
+      "destinations": [
+        {
+          "iata": "ALA",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "KE": {
+      "destinations": [
+        {
+          "iata": "ICN",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "PUS",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -2941,7 +1467,131 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "DPS",
+          "iata": "CEI",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "CNX",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "HKT",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "TPE",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        }
+      ]
+    },
+    "KQ": {
+      "destinations": [
+        {
+          "iata": "CAN",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "HKG",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "NBO",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "KU": {
+      "destinations": [
+        {
+          "iata": "KWI",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "MNL",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "LF": {
+      "destinations": [
+        {
+          "iata": "VTE",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -2958,6 +1608,48 @@
       "destinations": [
         {
           "iata": "FRA",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "KBV",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "MUC",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        }
+      ]
+    },
+    "LJ": {
+      "destinations": [
+        {
+          "iata": "ICN",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -2986,10 +1678,10 @@
         }
       ]
     },
-    "MD": {
+    "LY": {
       "destinations": [
         {
-          "iata": "BKK",
+          "iata": "TLV",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -2998,15 +1690,14 @@
               "url": "https://openflights.org/data.php"
             }
           ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
+          "lastChecked": "2025-08-24"
         }
       ]
     },
-    "MF": {
+    "MD": {
       "destinations": [
         {
-          "iata": "CGK",
+          "iata": "CAN",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -3017,6 +1708,61 @@
           ],
           "lastChecked": "2025-08-24"
         },
+        {
+          "iata": "HKG",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "KUL",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "SIN",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "TNR",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "MF": {
+      "destinations": [
         {
           "iata": "FOC",
           "freq_per_day": null,
@@ -3046,7 +1792,7 @@
     "MH": {
       "destinations": [
         {
-          "iata": "BKI",
+          "iata": "AMM",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -3059,20 +1805,7 @@
           "note": "コードシェア"
         },
         {
-          "iata": "IPH",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "KCH",
+          "iata": "BAH",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -3084,7 +1817,20 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "KUA",
+          "iata": "CAI",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "CEI",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -3109,46 +1855,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "LGK",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
           "iata": "PEN",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "SZB",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "TAS",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -3162,10 +1869,43 @@
         }
       ]
     },
-    "MI": {
+    "MJ": {
       "destinations": [
         {
-          "iata": "BDO",
+          "iata": "CMB",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        }
+      ]
+    },
+    "MR": {
+      "destinations": [
+        {
+          "iata": "ULN",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "MS": {
+      "destinations": [
+        {
+          "iata": "CAI",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -3177,7 +1917,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "BKI",
+          "iata": "KUL",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -3187,225 +1927,13 @@
             }
           ],
           "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "BLR",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "BPN",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "CCU",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "CEB",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "CJB",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "CKG",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "CNX",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "COK",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "CSX",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
+        }
+      ]
+    },
+    "MU": {
+      "destinations": [
         {
           "iata": "CTU",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "DAD",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "DIL",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "DRW",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "DVO",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "HAN",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "HKT",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "HYD",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "JOG",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "KCH",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -3429,7 +1957,339 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "KTM",
+          "iata": "NGB",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "PVG",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "NH": {
+      "destinations": [
+        {
+          "iata": "BOM",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "CEI",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "CNX",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "HKT",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "HND",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "KIX",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "NGO",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "NRT",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "NX": {
+      "destinations": [
+        {
+          "iata": "MFM",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "OS": {
+      "destinations": [
+        {
+          "iata": "VIE",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "OX": {
+      "destinations": [
+        {
+          "iata": "HKG",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "OZ": {
+      "destinations": [
+        {
+          "iata": "CEI",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "ICN",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "PUS",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        }
+      ]
+    },
+    "PG": {
+      "destinations": [
+        {
+          "iata": "AUH",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "BOM",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "CEI",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "CNX",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "DAC",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "HKG",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "HKT",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "HND",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "KBV",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "KIX",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -3450,10 +2310,11 @@
               "url": "https://openflights.org/data.php"
             }
           ],
-          "lastChecked": "2025-08-24"
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
         },
         {
-          "iata": "LGK",
+          "iata": "LPQ",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -3465,7 +2326,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "LOP",
+          "iata": "LPT",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -3477,7 +2338,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "MAA",
+          "iata": "MDL",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -3489,7 +2350,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "MDC",
+          "iata": "MLE",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -3501,7 +2362,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "PEN",
+          "iata": "NRT",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -3513,19 +2374,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "PKU",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "PLM",
+          "iata": "NYT",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -3573,7 +2422,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "SOC",
+          "iata": "TDX",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -3585,55 +2434,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "SRG",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "SUB",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "SZX",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "TRV",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "UPG",
+          "iata": "THS",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -3657,7 +2458,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "VTZ",
+          "iata": "UTH",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -3669,273 +2470,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "WUH",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "XMN",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        }
-      ]
-    },
-    "MJ": {
-      "destinations": [
-        {
-          "iata": "CMB",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        }
-      ]
-    },
-    "MK": {
-      "destinations": [
-        {
-          "iata": "KUL",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        }
-      ]
-    },
-    "MS": {
-      "destinations": [
-        {
-          "iata": "DXB",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        }
-      ]
-    },
-    "MU": {
-      "destinations": [
-        {
-          "iata": "BNE",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "MEL",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "NNG",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "PER",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "PVG",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "SYD",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "WUH",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "WUX",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        }
-      ]
-    },
-    "NZ": {
-      "destinations": [
-        {
-          "iata": "AUH",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "BNE",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        }
-      ]
-    },
-    "OZ": {
-      "destinations": [
-        {
-          "iata": "ICN",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "JNB",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        }
-      ]
-    },
-    "PG": {
-      "destinations": [
-        {
-          "iata": "CNX",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "HKT",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "USM",
+          "iata": "VTE",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -3964,10 +2499,10 @@
         }
       ]
     },
-    "PX": {
+    "PS": {
       "destinations": [
         {
-          "iata": "POM",
+          "iata": "KBP",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -3983,7 +2518,7 @@
     "QF": {
       "destinations": [
         {
-          "iata": "BNE",
+          "iata": "CEI",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -3992,31 +2527,8 @@
               "url": "https://openflights.org/data.php"
             }
           ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "CGK",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "DPS",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
         },
         {
           "iata": "DXB",
@@ -4032,7 +2544,7 @@
           "note": "コードシェア"
         },
         {
-          "iata": "HND",
+          "iata": "KBV",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4043,30 +2555,6 @@
           ],
           "lastChecked": "2025-08-24",
           "note": "コードシェア"
-        },
-        {
-          "iata": "MEL",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "PER",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
         },
         {
           "iata": "SYD",
@@ -4079,9 +2567,13 @@
             }
           ],
           "lastChecked": "2025-08-24"
-        },
+        }
+      ]
+    },
+    "QR": {
+      "destinations": [
         {
-          "iata": "USM",
+          "iata": "CNX",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4092,11 +2584,7 @@
           ],
           "lastChecked": "2025-08-24",
           "note": "コードシェア"
-        }
-      ]
-    },
-    "QR": {
-      "destinations": [
+        },
         {
           "iata": "DOH",
           "freq_per_day": null,
@@ -4110,7 +2598,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "DPS",
+          "iata": "HAN",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4120,11 +2608,62 @@
             }
           ],
           "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "HKT",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "KBV",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "MDL",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
         }
       ]
     },
     "QV": {
       "destinations": [
+        {
+          "iata": "LPQ",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
         {
           "iata": "VTE",
           "freq_per_day": null,
@@ -4136,73 +2675,25 @@
             }
           ],
           "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "ZVK",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
         }
       ]
     },
-    "QZ": {
+    "RA": {
       "destinations": [
         {
-          "iata": "BDO",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "CGK",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "DPS",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "JOG",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "SRG",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "SUB",
+          "iata": "KTM",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4228,9 +2719,37 @@
             }
           ],
           "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "RJ": {
+      "destinations": [
+        {
+          "iata": "AMM",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
         },
         {
-          "iata": "DPS",
+          "iata": "HKG",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "KUL",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4246,7 +2765,47 @@
     "RX": {
       "destinations": [
         {
+          "iata": "CGP",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
           "iata": "DAC",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "S7": {
+      "destinations": [
+        {
+          "iata": "IKT",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "OVB",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4276,10 +2835,74 @@
         }
       ]
     },
+    "SC": {
+      "destinations": [
+        {
+          "iata": "TAO",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "TNA",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
     "SK": {
       "destinations": [
         {
+          "iata": "ARN",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
           "iata": "CPH",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "OSL",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "SIN",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4293,10 +2916,27 @@
         }
       ]
     },
-    "SV": {
+    "SN": {
       "destinations": [
         {
-          "iata": "JED",
+          "iata": "BRU",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        }
+      ]
+    },
+    "SQ": {
+      "destinations": [
+        {
+          "iata": "ADD",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4308,7 +2948,23 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "RUH",
+          "iata": "SIN",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "SU": {
+      "destinations": [
+        {
+          "iata": "SVO",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4324,23 +2980,7 @@
     "TG": {
       "destinations": [
         {
-          "iata": "BKK",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        }
-      ]
-    },
-    "TK": {
-      "destinations": [
-        {
-          "iata": "CGK",
+          "iata": "AKL",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4352,23 +2992,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "IST",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        }
-      ]
-    },
-    "TR": {
-      "destinations": [
-        {
-          "iata": "BDO",
+          "iata": "ARN",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4380,7 +3004,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "BKK",
+          "iata": "BAH",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4389,10 +3013,72 @@
               "url": "https://openflights.org/data.php"
             }
           ],
-          "lastChecked": "2025-08-24"
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
         },
         {
           "iata": "BLR",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "BNE",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "BOM",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "BRU",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "BWN",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "CAI",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4416,7 +3102,31 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "CEB",
+          "iata": "CCU",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "CDG",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "CEI",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4440,6 +3150,30 @@
           "lastChecked": "2025-08-24"
         },
         {
+          "iata": "CKG",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "CMB",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
           "iata": "CNX",
           "freq_per_day": null,
           "intl": true,
@@ -4452,7 +3186,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "COK",
+          "iata": "CPH",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4464,7 +3198,19 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "CRK",
+          "iata": "CTS",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "CTU",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4488,6 +3234,30 @@
           "lastChecked": "2025-08-24"
         },
         {
+          "iata": "DEL",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "DME",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
           "iata": "DPS",
           "freq_per_day": null,
           "intl": true,
@@ -4500,7 +3270,43 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "HAK",
+          "iata": "DXB",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "FCO",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "FRA",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "FUK",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4560,6 +3366,18 @@
           "lastChecked": "2025-08-24"
         },
         {
+          "iata": "HND",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
           "iata": "HYD",
           "freq_per_day": null,
           "intl": true,
@@ -4572,7 +3390,44 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "JOG",
+          "iata": "ICN",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "ISB",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "IST",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        },
+        {
+          "iata": "JNB",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4596,7 +3451,55 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "KLO",
+          "iata": "KHI",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "KIX",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "KKC",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "KMG",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "KTM",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4620,7 +3523,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "LGK",
+          "iata": "LHE",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4632,7 +3535,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "LJG",
+          "iata": "LHR",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4656,7 +3559,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "MFM",
+          "iata": "MAD",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4668,7 +3571,19 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "MLE",
+          "iata": "MEL",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "MFM",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4692,7 +3607,67 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "NGB",
+          "iata": "MUC",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "MXP",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "NGO",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "NRT",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "OSL",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "PEK",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4740,6 +3715,30 @@
           "lastChecked": "2025-08-24"
         },
         {
+          "iata": "PUS",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "PVG",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
           "iata": "RGN",
           "freq_per_day": null,
           "intl": true,
@@ -4764,119 +3763,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "SUB",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "SZX",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "TPE",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "TRV",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "TRZ",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        }
-      ]
-    },
-    "TZ": {
-      "destinations": [
-        {
-          "iata": "BKK",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "HKG",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "NKG",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "OOL",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "PER",
+          "iata": "SIN",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4900,7 +3787,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "TAO",
+          "iata": "TLV",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4910,6 +3797,19 @@
             }
           ],
           "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "TNR",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
         },
         {
           "iata": "TPE",
@@ -4924,7 +3824,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "TSN",
+          "iata": "UBP",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4934,13 +3834,9 @@
             }
           ],
           "lastChecked": "2025-08-24"
-        }
-      ]
-    },
-    "UL": {
-      "destinations": [
+        },
         {
-          "iata": "CMB",
+          "iata": "URT",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4950,13 +3846,33 @@
             }
           ],
           "lastChecked": "2025-08-24"
-        }
-      ]
-    },
-    "UN": {
-      "destinations": [
+        },
         {
-          "iata": "DME",
+          "iata": "USM",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "UTH",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "VIE",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4967,13 +3883,9 @@
           ],
           "lastChecked": "2025-08-24",
           "note": "コードシェア"
-        }
-      ]
-    },
-    "US": {
-      "destinations": [
+        },
         {
-          "iata": "AMS",
+          "iata": "VTE",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -4985,55 +3897,7 @@
           "lastChecked": "2025-08-24"
         },
         {
-          "iata": "FRA",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "HKG",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "ICN",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "MUC",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "NRT",
+          "iata": "XMN",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -5058,23 +3922,10 @@
         }
       ]
     },
-    "VA": {
+    "TK": {
       "destinations": [
         {
-          "iata": "ADL",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
-          "iata": "AUH",
+          "iata": "AKL",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -5100,7 +3951,7 @@
           "note": "コードシェア"
         },
         {
-          "iata": "DAD",
+          "iata": "HKG",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -5113,7 +3964,7 @@
           "note": "コードシェア"
         },
         {
-          "iata": "DRW",
+          "iata": "IST",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -5122,11 +3973,10 @@
               "url": "https://openflights.org/data.php"
             }
           ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
+          "lastChecked": "2025-08-24"
         },
         {
-          "iata": "JNB",
+          "iata": "KUL",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -5152,19 +4002,6 @@
           "note": "コードシェア"
         },
         {
-          "iata": "MUC",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
-        },
-        {
           "iata": "PER",
           "freq_per_day": null,
           "intl": true,
@@ -5178,7 +4015,7 @@
           "note": "コードシェア"
         },
         {
-          "iata": "REP",
+          "iata": "SGN",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -5187,8 +4024,7 @@
               "url": "https://openflights.org/data.php"
             }
           ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
+          "lastChecked": "2025-08-24"
         },
         {
           "iata": "SYD",
@@ -5205,34 +4041,10 @@
         }
       ]
     },
-    "VF": {
+    "TR": {
       "destinations": [
         {
-          "iata": "CGK",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "DPS",
-          "freq_per_day": null,
-          "intl": true,
-          "sources": [
-            {
-              "title": "OpenFlights Route Database",
-              "url": "https://openflights.org/data.php"
-            }
-          ],
-          "lastChecked": "2025-08-24"
-        },
-        {
-          "iata": "SUB",
+          "iata": "SIN",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -5245,7 +4057,164 @@
         }
       ]
     },
-    "VN": {
+    "TW": {
+      "destinations": [
+        {
+          "iata": "ICN",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "TZ": {
+      "destinations": [
+        {
+          "iata": "SIN",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "UA": {
+      "destinations": [
+        {
+          "iata": "NRT",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24",
+          "note": "コードシェア"
+        }
+      ]
+    },
+    "UL": {
+      "destinations": [
+        {
+          "iata": "CAN",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "CMB",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "HKG",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "UN": {
+      "destinations": [
+        {
+          "iata": "DME",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "KJA",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "SVX",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "TPE",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "UU": {
+      "destinations": [
+        {
+          "iata": "MAA",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "VJ": {
       "destinations": [
         {
           "iata": "HAN",
@@ -5273,10 +4242,22 @@
         }
       ]
     },
-    "VS": {
+    "VN": {
       "destinations": [
         {
-          "iata": "LHR",
+          "iata": "HAN",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "NBO",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -5289,7 +4270,7 @@
           "note": "コードシェア"
         },
         {
-          "iata": "MUC",
+          "iata": "PNH",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -5298,15 +4279,42 @@
               "url": "https://openflights.org/data.php"
             }
           ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "SGN",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "W5": {
+      "destinations": [
+        {
+          "iata": "IKA",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
         }
       ]
     },
     "WY": {
       "destinations": [
         {
-          "iata": "CMB",
+          "iata": "CAN",
           "freq_per_day": null,
           "intl": true,
           "sources": [
@@ -5315,8 +4323,19 @@
               "url": "https://openflights.org/data.php"
             }
           ],
-          "lastChecked": "2025-08-24",
-          "note": "コードシェア"
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "MCT",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
         }
       ]
     },
@@ -5324,6 +4343,22 @@
       "destinations": [
         {
           "iata": "RGN",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "OpenFlights Route Database",
+              "url": "https://openflights.org/data.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "ZE": {
+      "destinations": [
+        {
+          "iata": "ICN",
           "freq_per_day": null,
           "intl": true,
           "sources": [
