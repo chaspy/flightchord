@@ -3,9 +3,9 @@
   "updatedAt": "2025-08-24",
   "source": [
     {
-      "url": "https://www.starflyer.jp/timetable/hnd-kkj.html",
+      "url": "https://www.kitakyu-air.jp/rev-boarding/timetable.php",
       "lastChecked": "2025-08-24",
-      "description": "スターフライヤー公式時刻表"
+      "description": "北九州空港公式時刻表"
     }
   ],
   "carriers": {
@@ -15,12 +15,92 @@
           "iata": "HND",
           "freq_per_day": 6,
           "intl": false,
-          "verified": true,
-          "source": "https://www.starflyer.jp/timetable/hnd-kkj.html",
           "sources": [
             {
-              "title": "7G公式時刻表（要確認）",
-              "url": "https://example.com/verify-required"
+              "title": "スターフライヤー公式時刻表",
+              "url": "https://www.starflyer.jp/timetable/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "JL": {
+      "destinations": [
+        {
+          "iata": "HND",
+          "freq_per_day": null,
+          "intl": false,
+          "sources": [
+            {
+              "title": "JAL公式時刻表",
+              "url": "https://www.jal.co.jp/jp/ja/jmb/flightschedule/"
+            },
+            {
+              "title": "北九州空港公式時刻表",
+              "url": "https://www.kitakyu-air.jp/rev-boarding/timetable.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "NH": {
+      "destinations": [
+        {
+          "iata": "HND",
+          "freq_per_day": null,
+          "intl": false,
+          "note": "コードシェア with Starflyer",
+          "sources": [
+            {
+              "title": "ANA公式時刻表",
+              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
+            },
+            {
+              "title": "北九州空港公式時刻表",
+              "url": "https://www.kitakyu-air.jp/rev-boarding/timetable.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "LJ": {
+      "destinations": [
+        {
+          "iata": "ICN",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "Jin Air公式時刻表",
+              "url": "https://www.jinair.com/"
+            },
+            {
+              "title": "北九州空港公式時刻表",
+              "url": "https://www.kitakyu-air.jp/rev-boarding/timetable.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "KE": {
+      "destinations": [
+        {
+          "iata": "ICN",
+          "freq_per_day": null,
+          "intl": true,
+          "note": "コードシェア with Jin Air",
+          "sources": [
+            {
+              "title": "大韓航空公式時刻表",
+              "url": "https://www.koreanair.com/jp/ja/schedule/"
+            },
+            {
+              "title": "北九州空港公式時刻表",
+              "url": "https://www.kitakyu-air.jp/rev-boarding/timetable.php"
             }
           ],
           "lastChecked": "2025-08-24"

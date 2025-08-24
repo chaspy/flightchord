@@ -273,6 +273,143 @@
           "lastChecked": "2025-08-24"
         }
       ]
+    },
+    "LJ": {
+      "destinations": [
+        {
+          "iata": "KKJ",
+          "freq_per_day": null,
+          "intl": true,
+          "sources": [
+            {
+              "title": "Jin Air公式時刻表",
+              "url": "https://www.jinair.com/"
+            },
+            {
+              "title": "北九州空港公式時刻表",
+              "url": "https://www.kitakyu-air.jp/rev-boarding/timetable.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "KE": {
+      "destinations": [
+        {
+          "iata": "HND",
+          "freq_per_day": 4,
+          "intl": true,
+          "sources": [
+            {
+              "title": "大韓航空公式時刻表",
+              "url": "https://www.koreanair.com/jp/ja/schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "NRT",
+          "freq_per_day": 2,
+          "intl": true,
+          "sources": [
+            {
+              "title": "大韓航空公式時刻表",
+              "url": "https://www.koreanair.com/jp/ja/schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "KIX",
+          "freq_per_day": 2,
+          "intl": true,
+          "sources": [
+            {
+              "title": "大韓航空公式時刻表",
+              "url": "https://www.koreanair.com/jp/ja/schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "FUK",
+          "freq_per_day": 2,
+          "intl": true,
+          "sources": [
+            {
+              "title": "大韓航空公式時刻表",
+              "url": "https://www.koreanair.com/jp/ja/schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "CTS",
+          "freq_per_day": 1,
+          "intl": true,
+          "sources": [
+            {
+              "title": "大韓航空公式時刻表",
+              "url": "https://www.koreanair.com/jp/ja/schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "OKA",
+          "freq_per_day": 1,
+          "intl": true,
+          "sources": [
+            {
+              "title": "大韓航空公式時刻表",
+              "url": "https://www.koreanair.com/jp/ja/schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "LAX",
+          "freq_per_day": 1,
+          "intl": true,
+          "sources": [
+            {
+              "title": "大韓航空公式時刻表",
+              "url": "https://www.koreanair.com/jp/ja/schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "SIN",
+          "freq_per_day": 2,
+          "intl": true,
+          "sources": [
+            {
+              "title": "大韓航空公式時刻表",
+              "url": "https://www.koreanair.com/jp/ja/schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "KKJ",
+          "freq_per_day": null,
+          "intl": true,
+          "note": "コードシェア with Jin Air",
+          "sources": [
+            {
+              "title": "大韓航空公式時刻表",
+              "url": "https://www.koreanair.com/jp/ja/schedule/"
+            },
+            {
+              "title": "北九州空港公式時刻表",
+              "url": "https://www.kitakyu-air.jp/rev-boarding/timetable.php"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
     }
   }
 }

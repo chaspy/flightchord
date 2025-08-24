@@ -91,6 +91,10 @@ export const ALL_AIRLINES: Record<string, AirlineInfo> = {
   UA: {
     iata: 'UA', icao: 'UAL', name: 'ユナイテッド航空', nameEn: 'United Airlines',
     status: 'implemented', type: 'major'
+  },
+  LJ: {
+    iata: 'LJ', icao: 'JNA', name: 'ジンエアー', nameEn: 'Jin Air',
+    status: 'implemented', type: 'lcc'
   }
 };
 
