@@ -19,7 +19,7 @@ export interface AirportInfo {
   name: string;
   nameEn: string;
   status: AirportStatus;
-  region: 'hokkaido' | 'tohoku' | 'kanto' | 'chubu' | 'kansai' | 'chugoku' | 'shikoku' | 'kyushu' | 'okinawa';
+  region: 'hokkaido' | 'tohoku' | 'kanto' | 'chubu' | 'kansai' | 'chugoku' | 'shikoku' | 'kyushu' | 'okinawa' | 'international';
   type: 'major' | 'regional' | 'local';
 }
 
