@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { calculateCoverage, ALL_AIRLINES, ALL_AIRPORTS, type AirlineInfo, type AirportInfo } from "../lib/coverage-data";
+import { calculateCoverage, ALL_AIRLINES, ALL_AIRPORTS } from "../lib/coverage-data";
 
 export default function CoverageInfo() {
   const [expanded, setExpanded] = useState(false);

@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import CoverageInfo from "./CoverageInfo";
 
 export type ControlsProps = {
   airports: Record<string, { name: string }>;

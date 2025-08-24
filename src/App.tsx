@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import type { Map } from "maplibre-gl";
-import { Popup } from "maplibre-gl";
+import { Map as MapLibreMap, Popup } from "maplibre-gl";
 import MapCanvas from "./components/MapCanvas";
 import Controls from "./components/Controls";
 import CoverageInfo from "./components/CoverageInfo";
@@ -10,7 +9,7 @@ import { isDomestic } from "./lib/filters";
 import type { Airport, Airline } from "./lib/types";
 
 export default function App() {
-  const mapRef = useRef<Map | null>(null);
+  const mapRef = useRef<MapLibreMap | null>(null);
   const [airports, setAirports] = useState<Record<string, Airport>>({});
   const [airlines, setAirlines] = useState<Record<string, Airline>>({});
   const [selected, setSelected] = useState<string>("");
@@ -154,7 +153,7 @@ export default function App() {
   };
 
   // 空港レイヤーにクリックイベントを追加する関数
-  const addAirportClickHandler = (map: Map) => {
+  const addAirportClickHandler = (map: MapLibreMap) => {
     // 既存のイベントリスナーを削除（重複を避ける）
     map.off('click', 'airports', handleAirportClick);
     
