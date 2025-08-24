@@ -13,7 +13,9 @@
     "e2e": "playwright test",
     "validate-data": "tsx scripts/validate-data.ts",
     "add-sources": "tsx scripts/add-source-attribution.ts",
-    "fix-bidirectional": "tsx scripts/fix-bidirectional-routes.ts"
+    "fix-bidirectional": "tsx scripts/fix-bidirectional-routes.ts",
+    "add-airport": "tsx scripts/add-airport.ts",
+    "add-airline": "tsx scripts/add-airline.ts"
   },
   "dependencies": {
     "@turf/great-circle": "^7.2.0",
