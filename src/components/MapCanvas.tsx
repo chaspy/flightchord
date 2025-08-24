@@ -11,13 +11,25 @@ export default function MapCanvas({ onMapReady }: MapCanvasProps) {
 
   useEffect(() => {
     if (!ref.current) return;
+    
     const map = new maplibregl.Map({
       container: ref.current,
       style: "https://demotiles.maplibre.org/style.json",
       center: [139.76, 35.68],
       zoom: 3
     });
-    map.on("load", () => onMapReady?.(map));
+    
+    const handleLoad = () => {
+      if (map.isStyleLoaded()) {
+        onMapReady?.(map);
+      } else {
+        map.once("styledata", () => {
+          onMapReady?.(map);
+        });
+      }
+    };
+    
+    map.on("load", handleLoad);
     return () => map.remove();
   }, [onMapReady]);
 

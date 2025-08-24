@@ -9,7 +9,7 @@ export type ControlsProps = {
 };
 
 export default function Controls({ airports: _airports, airlines, onSelectAirport, onToggleDomestic, onToggleAirline }: ControlsProps) {
-  const [query, setQuery] = useState("HND");
+  const [query, setQuery] = useState("");
   const [domestic, setDomestic] = useState(true);
 
   useEffect(() => onToggleDomestic(domestic), [domestic, onToggleDomestic]);
@@ -19,7 +19,7 @@ export default function Controls({ airports: _airports, airlines, onSelectAirpor
       <input 
         value={query} 
         onChange={e => setQuery(e.target.value.toUpperCase())} 
-        placeholder="IATA (e.g., HND)" 
+        placeholder="空欄で全体表示 / IATA (e.g., HND)" 
       />
       <button onClick={() => onSelectAirport(query)}>Go</button>
       <label>
