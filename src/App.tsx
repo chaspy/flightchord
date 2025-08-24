@@ -6,6 +6,7 @@ import CoverageInfo from "./components/CoverageInfo";
 import { arc } from "./lib/geo";
 import { loadAirports, loadAirlines, loadAirportIndex } from "./lib/data";
 import { isDomestic } from "./lib/filters";
+import { AIRPORTS_WITH_ROUTES } from "./lib/airports-with-routes";
 import type { Airport, Airline } from "./lib/types";
 
 export default function App() {
@@ -50,6 +51,9 @@ export default function App() {
     const feature = e.features[0];
     const { iata, name, connections } = feature.properties;
     const coordinates = e.lngLat;
+    
+    // クリックした空港の路線のみ表示
+    setSelected(iata);
     
     // 既存のポップアップを削除
     if (popupRef.current) {
@@ -133,6 +137,16 @@ export default function App() {
         .setHTML(popupContent)
         .addTo(mapRef.current!);
       
+      // ポップアップの閉じるボタンにイベントリスナーを追加
+      setTimeout(() => {
+        const closeButton = document.querySelector('.maplibregl-popup-close-button');
+        if (closeButton) {
+          closeButton.addEventListener('click', () => {
+            setSelected("");
+          });
+        }
+      }, 0);
+      
     } catch (error) {
       console.error(`Failed to load airport data for ${iata}:`, error);
       
@@ -149,6 +163,29 @@ export default function App() {
           </div>
         `)
         .addTo(mapRef.current!);
+      
+      // ポップアップの閉じるボタンにイベントリスナーを追加
+      setTimeout(() => {
+        const closeButton = document.querySelector('.maplibregl-popup-close-button');
+        if (closeButton) {
+          closeButton.addEventListener('click', () => {
+            setSelected("");
+          });
+        }
+      }, 0);
+    }
+  };
+
+  // 地図の他の場所をクリックしたら選択を解除
+  const handleMapClick = (e: any) => {
+    if (!mapRef.current) return;
+    // 空港以外の場所がクリックされた場合
+    const features = mapRef.current.queryRenderedFeatures(e.point, { layers: ['airports'] });
+    if (features.length === 0) {
+      setSelected("");
+      if (popupRef.current) {
+        popupRef.current.remove();
+      }
     }
   };
 
@@ -156,9 +193,13 @@ export default function App() {
   const addAirportClickHandler = (map: MapLibreMap) => {
     // 既存のイベントリスナーを削除（重複を避ける）
     map.off('click', 'airports', handleAirportClick);
+    map.off('click', handleMapClick);
     
     // 空港クリック用イベントリスナーのみ追加
     map.on('click', 'airports', handleAirportClick);
+    
+    // 地図の他の場所をクリックしたら選択を解除
+    map.on('click', handleMapClick);
     
     // マウスカーソルをポインターに変更
     map.on('mouseenter', 'airports', () => {
@@ -183,7 +224,9 @@ export default function App() {
     }
     
     try {
-      const availableAirports = ["HND", "NRT", "KIX", "ITM", "NGO", "FUK", "KKJ", "UBJ", "CTS", "OKA", "SDJ", "KMJ", "MYJ", "ISG", "SIN", "ICN", "LAX"];
+      // 実際に路線データが存在する空港のみを使用（パフォーマンス最適化）
+      const availableAirports = AIRPORTS_WITH_ROUTES;
+      console.log(`Displaying ${availableAirports.length} airports with route data`);
       const routeFeatures: any[] = [];
       const airportFeatures: any[] = [];
       const airportCounts = new Map<string, number>();
@@ -552,6 +595,7 @@ export default function App() {
         <Controls
           airports={airports}
           airlines={airlines}
+          selectedAirport={selected}
           onSelectAirport={(iata) => { 
             setSelected(iata.trim()); 
           }}

@@ -3,12 +3,13 @@ import { useEffect, useState } from "react";
 export type ControlsProps = {
   airports: Record<string, { name: string }>;
   airlines: Record<string, { name: string }>;
+  selectedAirport?: string;
   onSelectAirport: (iata: string) => void;
   onToggleDomestic: (flag: boolean) => void;
   onToggleAirline: (code: string, checked: boolean) => void;
 };
 
-export default function Controls({ airports: _airports, airlines, onSelectAirport, onToggleDomestic, onToggleAirline }: ControlsProps) {
+export default function Controls({ airports: _airports, airlines, selectedAirport, onSelectAirport, onToggleDomestic, onToggleAirline }: ControlsProps) {
   const [query, setQuery] = useState("");
   const [domestic, setDomestic] = useState(true);
 
@@ -16,6 +17,14 @@ export default function Controls({ airports: _airports, airlines, onSelectAirpor
 
   return (
     <div className="controls">
+      {selectedAirport && (
+        <div style={{ marginBottom: '10px', display: 'flex', alignItems: 'center', gap: '10px' }}>
+          <span>選択中: <strong>{selectedAirport}</strong></span>
+          <button onClick={() => onSelectAirport("")} style={{ padding: '5px 10px' }}>
+            全空港表示に戻る
+          </button>
+        </div>
+      )}
       <input 
         value={query} 
         onChange={e => setQuery(e.target.value.toUpperCase())} 

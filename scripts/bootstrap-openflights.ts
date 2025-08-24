@@ -149,9 +149,22 @@ const TARGET_AIRPORTS_AUTO = (() => {
     'ABJ', // コートジボワール
     'DKR', // セネガル
     'CMN', 'RAK', 'FEZ', // モロッコ
-    'ALG', // アルジェリア
+    'ALG', 'ORN', 'CZL', // アルジェリア
     'TUN', // チュニジア
     'TIP', // リビア
+    'KRT', 'PZU', // スーダン
+    'NDJ', 'AEH', // チャド
+    'BKO', 'GAQ', // マリ
+    'NIM', 'AJY', // ニジェール
+    'OUA', 'BOY', // ブルキナファソ
+    'BGF', // 中央アフリカ
+    'FIH', 'LBV', // コンゴ民主共和国、コンゴ共和国
+    'LUN', // ザンビア
+    'HRE', // ジンバブエ
+    'MPM', // モザンビーク
+    'LAD', // アンゴラ
+    'WDH', // ナミビア
+    'GBE', // ボツワナ
     
     // オセアニア
     'SYD', 'MEL', 'BNE', 'PER', 'ADL', 'GC', 'HBA', 'CNS', 'DRW', // オーストラリア
