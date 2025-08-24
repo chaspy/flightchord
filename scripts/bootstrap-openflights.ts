@@ -47,7 +47,7 @@ const TARGET_AIRPORTS_AUTO = (() => {
   return new Set([
     // 東アジア
     'HND', 'NRT', 'KIX', 'ITM', 'NGO', 'FUK', 'CTS', 'OKA', // 日本
-    'ICN', 'GMP', 'PUS', // 韓国
+    'ICN', 'GMP', 'PUS', 'CJU', // 韓国
     'PEK', 'PVG', 'CAN', 'SZX', 'CTU', 'XIY', 'WUH', 'KMG', 'URC', // 中国
     'TPE', 'KHH', // 台湾
     'HKG', // 香港
@@ -314,9 +314,19 @@ class OpenFlightsBootstrap {
         // 簡易的な国内線判定（必要に応じて拡充）
         const domesticPairs = [
           ['JP', ['HND', 'NRT', 'KIX', 'ITM', 'NGO', 'FUK', 'KKJ', 'CTS', 'OKA']],
-          ['US', ['LAX', 'SFO', 'SEA', 'DEN', 'ORD', 'ATL', 'JFK', 'LGA', 'EWR', 'DFW']],
-          ['AU', ['SYD', 'MEL', 'BNE', 'PER']],
-          ['KR', ['ICN', 'GMP', 'PUS']]
+          ['US', ['LAX', 'SFO', 'SEA', 'DEN', 'ORD', 'ATL', 'JFK', 'LGA', 'EWR', 'DFW', 'MSP', 'DTW', 'PHX', 'LAS', 'MCO', 'FLL', 'TPA', 'MIA', 'BWI', 'DCA', 'PHL', 'BOS', 'CLT']],
+          ['AU', ['SYD', 'MEL', 'BNE', 'PER', 'ADL', 'DRW', 'CNS', 'HBA']],
+          ['KR', ['ICN', 'GMP', 'PUS', 'CJU']],
+          ['CN', ['PEK', 'PVG', 'CAN', 'SZX', 'CTU', 'XIY', 'WUH', 'KMG', 'URC']],
+          ['CA', ['YVR', 'YYZ', 'YUL', 'YYC', 'YEG', 'YOW', 'YHZ', 'YWG']],
+          ['BR', ['GRU', 'GIG', 'BSB', 'SSA', 'CGH', 'CNF', 'POA', 'CWB', 'FOR', 'REC']],
+          ['GB', ['LHR', 'LGW', 'STN', 'LTN', 'EDI', 'GLA', 'MAN', 'BHX', 'DUB', 'ORK']],
+          ['DE', ['FRA', 'MUC', 'DUS', 'HAM', 'CGN', 'STR']],
+          ['FR', ['CDG', 'ORY', 'LYS', 'MRS', 'NCE', 'TLS']],
+          ['IT', ['FCO', 'MXP', 'VCE', 'NAP', 'BLQ', 'PMO']],
+          ['ES', ['MAD', 'BCN', 'AGP', 'PMI', 'VLC']],
+          ['RU', ['SVO', 'DME', 'LED', 'OVB', 'SVX', 'VKO', 'KJA', 'ROV']],
+          ['IN', ['DEL', 'BOM', 'BLR', 'MAA', 'CCU', 'HYD', 'AMD', 'COK', 'GOI']]
         ];
         
         for (const [country, airports] of domesticPairs) {
@@ -377,10 +387,17 @@ class OpenFlightsBootstrap {
           airportFile.carriers[airline].destinations.map(r => r.iata)
         );
 
+        const newRoutesAdded = [];
         for (const route of routes) {
           if (!existingDestinations.has(route.iata)) {
             airportFile.carriers[airline].destinations.push(route);
+            newRoutesAdded.push(route);
           }
+        }
+
+        // 新規ルートが追加されず、既存データもない場合はキャリアエントリを削除
+        if (newRoutesAdded.length === 0 && airportFile.carriers[airline].destinations.length === 0) {
+          delete airportFile.carriers[airline];
         }
       }
 
