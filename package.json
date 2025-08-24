@@ -12,7 +12,8 @@
     "test:ui": "vitest --ui",
     "e2e": "playwright test",
     "validate-data": "tsx scripts/validate-data.ts",
-    "add-sources": "tsx scripts/add-source-attribution.ts"
+    "add-sources": "tsx scripts/add-source-attribution.ts",
+    "fix-bidirectional": "tsx scripts/fix-bidirectional-routes.ts"
   },
   "dependencies": {
     "@turf/great-circle": "^7.2.0",

@@ -87,6 +87,42 @@
             }
           ],
           "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "ITM",
+          "freq_per_day": 3,
+          "intl": false,
+          "sources": [
+            {
+              "title": "ANA公式時刻表",
+              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "NGO",
+          "freq_per_day": 2,
+          "intl": false,
+          "sources": [
+            {
+              "title": "ANA公式時刻表",
+              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "SDJ",
+          "freq_per_day": 1,
+          "intl": false,
+          "sources": [
+            {
+              "title": "ANA公式時刻表",
+              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
         }
       ]
     },
@@ -144,6 +180,42 @@
           "iata": "ICN",
           "freq_per_day": 1,
           "intl": true,
+          "sources": [
+            {
+              "title": "JAL公式時刻表",
+              "url": "https://www.jal.co.jp/jp/ja/jmb/flightschedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "ITM",
+          "freq_per_day": 2,
+          "intl": false,
+          "sources": [
+            {
+              "title": "JAL公式時刻表",
+              "url": "https://www.jal.co.jp/jp/ja/jmb/flightschedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "NGO",
+          "freq_per_day": 2,
+          "intl": false,
+          "sources": [
+            {
+              "title": "JAL公式時刻表",
+              "url": "https://www.jal.co.jp/jp/ja/jmb/flightschedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "SDJ",
+          "freq_per_day": 1,
+          "intl": false,
           "sources": [
             {
               "title": "JAL公式時刻表",
@@ -219,6 +291,18 @@
             }
           ],
           "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "NGO",
+          "freq_per_day": 1,
+          "intl": false,
+          "sources": [
+            {
+              "title": "ジェットスター・ジャパン公式時刻表",
+              "url": "https://www.jetstar.com/jp/ja/flight-schedules"
+            }
+          ],
+          "lastChecked": "2025-08-24"
         }
       ]
     },
@@ -256,6 +340,38 @@
             {
               "title": "スターフライヤー公式時刻表（福岡⇔仙台）",
               "url": "https://www.starflyer.jp/timetable/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "KE": {
+      "destinations": [
+        {
+          "iata": "ICN",
+          "freq_per_day": 2,
+          "intl": true,
+          "sources": [
+            {
+              "title": "大韓航空公式時刻表",
+              "url": "https://www.koreanair.com/jp/ja/schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "SQ": {
+      "destinations": [
+        {
+          "iata": "SIN",
+          "freq_per_day": 1,
+          "intl": true,
+          "sources": [
+            {
+              "title": "シンガポール航空公式時刻表",
+              "url": "https://www.singaporeair.com/ja_JP/jp/plan-travel/timetables/"
             }
           ],
           "lastChecked": "2025-08-24"

@@ -99,6 +99,30 @@
             }
           ],
           "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "KMJ",
+          "freq_per_day": 2,
+          "intl": false,
+          "sources": [
+            {
+              "title": "ANA公式時刻表",
+              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "SDJ",
+          "freq_per_day": 2,
+          "intl": false,
+          "sources": [
+            {
+              "title": "ANA公式時刻表",
+              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
         }
       ]
     },
@@ -187,6 +211,30 @@
             }
           ],
           "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "KMJ",
+          "freq_per_day": 1,
+          "intl": false,
+          "sources": [
+            {
+              "title": "JAL公式時刻表",
+              "url": "https://www.jal.co.jp/jp/ja/jmb/flightschedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "SDJ",
+          "freq_per_day": 1,
+          "intl": false,
+          "sources": [
+            {
+              "title": "JAL公式時刻表",
+              "url": "https://www.jal.co.jp/jp/ja/jmb/flightschedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
         }
       ]
     },
@@ -240,6 +288,82 @@
             {
               "title": "シンガポール航空公式時刻表",
               "url": "https://www.singaporeair.com/ja_JP/jp/plan-travel/timetables/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "7G": {
+      "destinations": [
+        {
+          "iata": "HND",
+          "freq_per_day": null,
+          "intl": false,
+          "sources": [
+            {
+              "title": "スターフライヤー公式時刻表",
+              "url": "https://www.starflyer.jp/timetable/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "KE": {
+      "destinations": [
+        {
+          "iata": "ICN",
+          "freq_per_day": 3,
+          "intl": true,
+          "sources": [
+            {
+              "title": "大韓航空公式時刻表",
+              "url": "https://www.koreanair.com/jp/ja/schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "MM": {
+      "destinations": [
+        {
+          "iata": "ISG",
+          "freq_per_day": 2,
+          "intl": false,
+          "sources": [
+            {
+              "title": "ピーチ・アビエーション公式時刻表",
+              "url": "https://www.flypeach.com/jp/ja/schedule"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "SDJ",
+          "freq_per_day": 1,
+          "intl": false,
+          "sources": [
+            {
+              "title": "ピーチ・アビエーション公式時刻表",
+              "url": "https://www.flypeach.com/jp/ja/schedule"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "UA": {
+      "destinations": [
+        {
+          "iata": "LAX",
+          "freq_per_day": 1,
+          "intl": true,
+          "sources": [
+            {
+              "title": "ユナイテッド航空公式時刻表",
+              "url": "https://www.united.com/ja/jp/fly/schedules"
             }
           ],
           "lastChecked": "2025-08-24"

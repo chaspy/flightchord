@@ -75,6 +75,30 @@
             }
           ],
           "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "CTS",
+          "freq_per_day": 2,
+          "intl": false,
+          "sources": [
+            {
+              "title": "ANA公式時刻表",
+              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "KMJ",
+          "freq_per_day": 1,
+          "intl": false,
+          "sources": [
+            {
+              "title": "ANA公式時刻表",
+              "url": "https://www.ana.co.jp/ja/jp/book-plan/flight-schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
         }
       ]
     },
@@ -196,6 +220,46 @@
             {
               "title": "大韓航空公式時刻表",
               "url": "https://www.koreanair.com/jp/ja/schedule/"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        }
+      ]
+    },
+    "GK": {
+      "destinations": [
+        {
+          "iata": "FUK",
+          "freq_per_day": 2,
+          "intl": false,
+          "sources": [
+            {
+              "title": "ジェットスター・ジャパン公式時刻表",
+              "url": "https://www.jetstar.com/jp/ja/flight-schedules"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "KIX",
+          "freq_per_day": 2,
+          "intl": false,
+          "sources": [
+            {
+              "title": "ジェットスター・ジャパン公式時刻表",
+              "url": "https://www.jetstar.com/jp/ja/flight-schedules"
+            }
+          ],
+          "lastChecked": "2025-08-24"
+        },
+        {
+          "iata": "OKA",
+          "freq_per_day": 1,
+          "intl": false,
+          "sources": [
+            {
+              "title": "ジェットスター・ジャパン公式時刻表",
+              "url": "https://www.jetstar.com/jp/ja/flight-schedules"
             }
           ],
           "lastChecked": "2025-08-24"
