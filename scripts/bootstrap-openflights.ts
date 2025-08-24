@@ -42,19 +42,131 @@ const OPENFLIGHTS_ROUTES_URL = 'https://raw.githubusercontent.com/jpatokal/openf
 const AIRPORTS_DIR = path.join(process.cwd(), 'public/data/airports');
 const TODAY = new Date().toISOString().split('T')[0];
 
-// 対象地域の空港（アジア太平洋＋北米）
+// 真のグローバル対応：世界主要空港
 const TARGET_AIRPORTS_AUTO = (() => {
-  // airports.jsonから動的に取得する場合の実装
-  // 現在は主要空港を静的に定義
   return new Set([
-    // 日本主要空港
-    'HND', 'NRT', 'KIX', 'ITM', 'NGO', 'FUK', 'KKJ', 'UBJ', 'CTS', 'OKA',
-    // アジア主要空港
-    'ICN', 'GMP', 'PUS', 'SIN', 'KUL', 'BKK', 'DMK', 'MNL', 'HKG', 'TPE',
-    'HAN', 'SGN', 'CGK', 'DPS', 'SYD', 'MEL', 'BNE', 'PER', 'AKL', 'CHC',
-    // 北米主要空港
-    'LAX', 'SFO', 'SEA', 'DEN', 'ORD', 'ATL', 'JFK', 'LGA', 'EWR', 'DFW',
-    'MIA', 'BOS', 'YVR', 'YYZ', 'YUL'
+    // 東アジア
+    'HND', 'NRT', 'KIX', 'ITM', 'NGO', 'FUK', 'CTS', 'OKA', // 日本
+    'ICN', 'GMP', 'PUS', // 韓国
+    'PEK', 'PVG', 'CAN', 'SZX', 'CTU', 'XIY', 'WUH', 'KMG', 'URC', // 中国
+    'TPE', 'KHH', // 台湾
+    'HKG', // 香港
+    'MFM', // マカオ
+    
+    // 東南アジア
+    'SIN', // シンガポール
+    'KUL', 'JHB', // マレーシア
+    'BKK', 'DMK', 'CNX', 'HKT', // タイ
+    'SGN', 'HAN', 'DAD', // ベトナム
+    'MNL', 'CEB', 'DVO', // フィリピン
+    'CGK', 'DPS', 'SUB', 'MDC', 'BPN', // インドネシア
+    'RGN', 'MDL', // ミャンマー
+    'PNH', 'REP', // カンボジア
+    'VTE', 'LPQ', // ラオス
+    'BWN', // ブルネイ
+    
+    // 南アジア
+    'DEL', 'BOM', 'BLR', 'MAA', 'HYD', 'CCU', 'AMD', 'COK', 'GOI', // インド
+    'KHI', 'LHE', 'ISB', // パキスタン
+    'DAC', 'CGP', // バングラデシュ
+    'CMB', 'HRI', // スリランカ
+    'KTM', // ネパール
+    'PBH', // ブータン
+    'MLE', // モルディブ
+    
+    // 中東
+    'DXB', 'AUH', 'SHJ', // UAE
+    'DOH', // カタール
+    'RUH', 'JED', 'DMM', // サウジアラビア
+    'KWI', // クウェート
+    'BAH', // バーレーン
+    'MCT', // オマーン
+    'IKA', 'ISF', // イラン
+    'BGW', 'BSR', // イラク
+    'AMM', // ヨルダン
+    'BEY', // レバノン
+    'TLV', 'ETH', // イスラエル
+    'IST', 'SAW', 'ADB', 'AYT', // トルコ
+    'CAI', 'HRG', 'SSH', // エジプト
+    
+    // ヨーロッパ
+    'LHR', 'LGW', 'STN', 'LTN', 'MAN', 'BHX', 'EDI', 'GLA', // イギリス
+    'FRA', 'MUC', 'DUS', 'BER', 'HAM', 'STR', 'CGN', // ドイツ
+    'CDG', 'ORY', 'NCE', 'LYS', 'MRS', 'TLS', // フランス
+    'FCO', 'MXP', 'VCE', 'NAP', 'PMO', 'BLQ', // イタリア
+    'MAD', 'BCN', 'PMI', 'LPA', 'AGP', 'VLC', // スペイン
+    'AMS', 'RTM', // オランダ
+    'ZUR', 'GVA', 'BSL', // スイス
+    'VIE', // オーストリア
+    'BRU', // ベルギー
+    'ARN', 'GOT', // スウェーデン
+    'OSL', 'BGO', // ノルウェー
+    'CPH', 'AAL', // デンマーク
+    'HEL', // フィンランド
+    'DUB', 'ORK', // アイルランド
+    'LIS', 'OPO', // ポルトガル
+    'ATH', 'SKG', // ギリシャ
+    'WAW', 'KRK', 'GDN', // ポーランド
+    'PRG', // チェコ
+    'BUD', // ハンガリー
+    'OTP', // ルーマニア
+    'SOF', // ブルガリア
+    'ZAG', // クロアチア
+    'LJU', // スロベニア
+    'BTS', // スロバキア
+    'TLL', // エストニア
+    'RIX', // ラトビア
+    'VNO', // リトアニア
+    'KEF', // アイスランド
+    
+    // 北米
+    'ATL', 'LAX', 'ORD', 'DFW', 'DEN', 'JFK', 'SFO', 'SEA', 'LAS', 'MCO', 'EWR', 'CLT', 'PHX', 'IAH', 'MIA', 'BOS', 'MSP', 'FLL', 'DTW', 'PHL', 'LGA', 'BWI', 'SLC', 'DCA', 'MDW', 'TPA', 'PDX', 'STL', 'HNL', // アメリカ
+    'YYZ', 'YVR', 'YUL', 'YYC', 'YEG', 'YOW', 'YHZ', 'YWG', // カナダ
+    'MEX', 'CUN', 'GDL', 'MTY', 'TIJ', 'SJD', // メキシコ
+    
+    // 南米
+    'GRU', 'CGH', 'GIG', 'BSB', 'CNF', 'REC', 'FOR', 'SSA', 'CWB', 'POA', // ブラジル
+    'EZE', 'AEP', 'COR', 'MDZ', 'IGR', // アルゼンチン
+    'SCL', 'IPC', // チリ
+    'LIM', 'CUZ', 'AQP', // ペルー
+    'BOG', 'MDE', 'CLO', 'CTG', 'BAQ', // コロンビア
+    'CCS', 'MAR', // ベネズエラ
+    'UIO', 'GYE', // エクアドル
+    'VVI', 'LPB', 'CBB', // ボリビア
+    'ASU', // パラグアイ
+    'MVD', 'PDP', // ウルグアイ
+    
+    // アフリカ
+    'JNB', 'CPT', 'DUR', 'PLZ', // 南アフリカ
+    'CAI', 'HRG', 'SSH', 'LXR', // エジプト
+    'LOS', 'ABV', 'KAN', // ナイジェリア
+    'NBO', 'MBA', // ケニア
+    'ADD', // エチオピア
+    'DAR', 'JRO', 'ZNZ', // タンザニア
+    'EBB', // ウガンダ
+    'KGL', // ルワンダ
+    'ACC', // ガーナ
+    'ABJ', // コートジボワール
+    'DKR', // セネガル
+    'CMN', 'RAK', 'FEZ', // モロッコ
+    'ALG', // アルジェリア
+    'TUN', // チュニジア
+    'TIP', // リビア
+    
+    // オセアニア
+    'SYD', 'MEL', 'BNE', 'PER', 'ADL', 'GC', 'HBA', 'CNS', 'DRW', // オーストラリア
+    'AKL', 'CHC', 'WLG', 'ZQN', // ニュージーランド
+    'NAN', // フィジー
+    'NOU', // ニューカレドニア
+    'VLI', // バヌアツ
+    
+    // その他
+    'SVO', 'DME', 'VKO', 'LED', 'SVX', 'OVB', 'KJA', 'ROV', // ロシア
+    'ALA', 'NQZ', // カザフスタン
+    'TAS', 'FRU', // 中央アジア
+    'ULN', // モンゴル
+    'TBS', 'KUT', // ジョージア・アルメニア
+    'GYD' // アゼルバイジャン
   ]);
 })();
 

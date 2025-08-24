@@ -90,19 +90,34 @@ class OurAirportsSync {
   private filterTargetAirports(records: OurAirportsRecord[]): OurAirportsRecord[] {
     console.log('🌏 対象国の空港を抽出中...');
     
-    // 対象国リスト（段階的に拡大可能）
+    // 真のグローバル対応：主要国・地域
     const TARGET_COUNTRIES = [
-      'JP', // 日本（既存）
-      'US', // アメリカ
-      'KR', // 韓国  
-      'SG', // シンガポール
-      'TW', // 台湾
-      'HK', // 香港
-      'AU', // オーストラリア
-      'TH', // タイ
-      'MY', // マレーシア
-      'PH', // フィリピン
-      'VN', // ベトナム
+      // 東アジア
+      'JP', 'KR', 'CN', 'TW', 'HK', 'MO',
+      // 東南アジア
+      'TH', 'SG', 'MY', 'VN', 'PH', 'ID', 'MM', 'KH', 'LA', 'BN',
+      // 南アジア
+      'IN', 'PK', 'BD', 'LK', 'NP', 'BT', 'MV',
+      // 中東
+      'AE', 'QA', 'SA', 'KW', 'BH', 'OM', 'IR', 'IQ', 'JO', 'LB', 'IL', 'PS', 'TR', 'EG',
+      // ヨーロッパ
+      'GB', 'DE', 'FR', 'IT', 'ES', 'NL', 'CH', 'AT', 'BE', 'SE', 'NO', 'DK', 'FI', 'IE',
+      'PT', 'GR', 'PL', 'CZ', 'HU', 'RO', 'BG', 'HR', 'SI', 'SK', 'EE', 'LV', 'LT',
+      'LU', 'MT', 'CY', 'IS', 'UA', 'BY', 'MD', 'AL', 'MK', 'BA', 'RS', 'ME', 'XK',
+      // 北米
+      'US', 'CA', 'MX', 'GT', 'BZ', 'SV', 'HN', 'NI', 'CR', 'PA',
+      // 南米  
+      'BR', 'AR', 'CL', 'PE', 'CO', 'VE', 'EC', 'BO', 'PY', 'UY', 'GY', 'SR', 'FK',
+      // アフリカ
+      'ZA', 'EG', 'NG', 'KE', 'ET', 'TZ', 'UG', 'RW', 'GH', 'CI', 'SN', 'ML', 'BF',
+      'NE', 'TD', 'SD', 'LY', 'TN', 'DZ', 'MA', 'MR', 'GM', 'GW', 'SL', 'LR', 'BJ',
+      'TG', 'CG', 'GA', 'CM', 'CF', 'CD', 'AO', 'ZM', 'ZW', 'BW', 'NA', 'SZ', 'LS',
+      'MG', 'MU', 'SC', 'MZ', 'MW', 'DJ', 'SO', 'ER',
+      // オセアニア
+      'AU', 'NZ', 'PG', 'FJ', 'NC', 'VU', 'SB', 'WS', 'TO', 'KI', 'PW', 'FM', 'MH',
+      'NR', 'TV', 'CK', 'NU', 'TK',
+      // その他
+      'RU', 'KZ', 'UZ', 'KG', 'TJ', 'TM', 'AF', 'MN', 'GE', 'AM', 'AZ'
     ];
     
     const targetAirports = records.filter(record => 
