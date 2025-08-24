@@ -1,0 +1,38 @@
+{
+  "airport": "HND",
+  "updatedAt": "2025-08-24",
+  "carriers": {
+    "NH": {
+      "destinations": [
+        { "iata": "CTS", "freq_per_day": 8, "intl": false },
+        { "iata": "OKA", "freq_per_day": 6, "intl": false },
+        { "iata": "FUK", "freq_per_day": 10, "intl": false },
+        { "iata": "KIX", "freq_per_day": 12, "intl": false },
+        { "iata": "SIN", "freq_per_day": 3, "intl": true },
+        { "iata": "LAX", "freq_per_day": 2, "intl": true }
+      ]
+    },
+    "JL": {
+      "destinations": [
+        { "iata": "FUK", "freq_per_day": 7, "intl": false },
+        { "iata": "CTS", "freq_per_day": 9, "intl": false },
+        { "iata": "OKA", "freq_per_day": 5, "intl": false },
+        { "iata": "KIX", "freq_per_day": 10, "intl": false },
+        { "iata": "ICN", "freq_per_day": 4, "intl": true },
+        { "iata": "LAX", "freq_per_day": 2, "intl": true }
+      ]
+    },
+    "BC": {
+      "destinations": [
+        { "iata": "FUK", "freq_per_day": 5, "intl": false },
+        { "iata": "OKA", "freq_per_day": 4, "intl": false },
+        { "iata": "CTS", "freq_per_day": 3, "intl": false }
+      ]
+    },
+    "UA": {
+      "destinations": [
+        { "iata": "LAX", "freq_per_day": 1, "intl": true }
+      ]
+    }
+  }
+}

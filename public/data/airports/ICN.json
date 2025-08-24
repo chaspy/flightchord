@@ -1,0 +1,31 @@
+{
+  "airport": "ICN",
+  "updatedAt": "2025-08-24",
+  "carriers": {
+    "KE": {
+      "destinations": [
+        { "iata": "HND", "freq_per_day": 4, "intl": true },
+        { "iata": "NRT", "freq_per_day": 2, "intl": true },
+        { "iata": "KIX", "freq_per_day": 3, "intl": true },
+        { "iata": "FUK", "freq_per_day": 2, "intl": true },
+        { "iata": "CTS", "freq_per_day": 1, "intl": true },
+        { "iata": "OKA", "freq_per_day": 1, "intl": true },
+        { "iata": "LAX", "freq_per_day": 3, "intl": true },
+        { "iata": "SIN", "freq_per_day": 3, "intl": true }
+      ]
+    },
+    "NH": {
+      "destinations": [
+        { "iata": "HND", "freq_per_day": 3, "intl": true },
+        { "iata": "NRT", "freq_per_day": 3, "intl": true },
+        { "iata": "KIX", "freq_per_day": 2, "intl": true }
+      ]
+    },
+    "JL": {
+      "destinations": [
+        { "iata": "HND", "freq_per_day": 4, "intl": true },
+        { "iata": "NRT", "freq_per_day": 4, "intl": true }
+      ]
+    }
+  }
+}

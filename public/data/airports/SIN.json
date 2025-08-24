@@ -1,0 +1,29 @@
+{
+  "airport": "SIN",
+  "updatedAt": "2025-08-24",
+  "carriers": {
+    "SQ": {
+      "destinations": [
+        { "iata": "HND", "freq_per_day": 3, "intl": true },
+        { "iata": "NRT", "freq_per_day": 2, "intl": true },
+        { "iata": "KIX", "freq_per_day": 1, "intl": true },
+        { "iata": "FUK", "freq_per_day": 1, "intl": true },
+        { "iata": "LAX", "freq_per_day": 2, "intl": true },
+        { "iata": "ICN", "freq_per_day": 3, "intl": true }
+      ]
+    },
+    "NH": {
+      "destinations": [
+        { "iata": "HND", "freq_per_day": 3, "intl": true },
+        { "iata": "NRT", "freq_per_day": 4, "intl": true },
+        { "iata": "KIX", "freq_per_day": 2, "intl": true }
+      ]
+    },
+    "JL": {
+      "destinations": [
+        { "iata": "NRT", "freq_per_day": 3, "intl": true },
+        { "iata": "HND", "freq_per_day": 2, "intl": true }
+      ]
+    }
+  }
+}
